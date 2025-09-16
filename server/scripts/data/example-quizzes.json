@@ -1,0 +1,2899 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+      "correct_answer": "1729",
+      "incorrect_answers": [
+        "91",
+        "561",
+        "4104"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+      "correct_answer": "1.58 x 10^20",
+      "incorrect_answers": [
+        "1.58 x 10^22",
+        "1.58 x  10^18",
+        "1.58 x 10^24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the alphanumeric representation of the imaginary number?",
+      "correct_answer": "i",
+      "incorrect_answers": [
+        "e",
+        "n",
+        "x"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the plane curve proposed by Descartes to challenge Fermat&#039;s extremum-finding techniques called?",
+      "correct_answer": "Folium of Descartes",
+      "incorrect_answers": [
+        "Elliptic Paraboloid of Descartes",
+        "Cartesian Coordinates",
+        "Descarte&#039;s Helicoid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What shape does sin(x) or cos(x) make on a graph?",
+      "correct_answer": "Waves",
+      "incorrect_answers": [
+        "A Parabola",
+        "A Straight Line",
+        "Zig-Zags"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "How many zeros are there in a googol?",
+      "correct_answer": "100",
+      "incorrect_answers": [
+        "10",
+        "1,000",
+        "1,000,000"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "An equilateral triangle always has every angle measuring 60&deg;.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "L&#039;H&ocirc;pital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which of these probability distributions is NOT discrete?",
+      "correct_answer": "Normal",
+      "incorrect_answers": [
+        "Binomial",
+        "Poisson",
+        "Hyper-geometric"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The set of all algebraic numbers is countable.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The sum of any two odd integers is odd.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "In Topology, the complement of an open set is a closed set.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "A &#039;Millinillion&#039; is a real number.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "How many books are in Euclid&#039;s Elements of Geometry?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "8",
+        "10",
+        "17"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In a normal distribution, 95% of the data lies within how many standard deviations of the mean?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In the hexadecimal system, what number comes after 9?",
+      "correct_answer": "The Letter A",
+      "incorrect_answers": [
+        "10",
+        "The Number 0",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What type of function is x&sup2;+2x+1?",
+      "correct_answer": "Quadratic",
+      "incorrect_answers": [
+        "Rational",
+        "Linear",
+        "Exponential"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the approximate value of mathematical constant e?",
+      "correct_answer": "2.72",
+      "incorrect_answers": [
+        "3.14",
+        "1.62",
+        "1.41"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "In Roman Numerals, what does XL equate to?",
+      "correct_answer": "40",
+      "incorrect_answers": [
+        "60",
+        "15",
+        "90"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "How many zeptometres are inside one femtometre?",
+      "correct_answer": "1,000,000",
+      "incorrect_answers": [
+        "10",
+        "1,000,000,000",
+        "1000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the correct order of operations for solving equations?",
+      "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+      "incorrect_answers": [
+        "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+        "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+        "The order in which the operations are written."
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The &#039;Squaring the Circle&#039; problem is solvable.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "You can square root a negative number with an imaginary number &quot;i&quot;.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What type of angle is greater than 90&deg;?",
+      "correct_answer": "Obtuse",
+      "incorrect_answers": [
+        "Acute",
+        "Right",
+        "Straight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What&#039;s the square root of 49?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "4",
+        "12",
+        "9"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The binary number &quot;101001101&quot; is equivalent to the Decimal number &quot;334&quot;",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the derivative of Acceleration with respect to time?",
+      "correct_answer": "Jerk",
+      "incorrect_answers": [
+        "Shift",
+        "Bump",
+        "Slide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The metric prefix &quot;atto-&quot; makes a measurement how much smaller than the base unit?",
+      "correct_answer": "One Quintillionth",
+      "incorrect_answers": [
+        "One Billionth",
+        "One Quadrillionth",
+        "One Septillionth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "How many sides does a trapezium have?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "111,111,111 x 111,111,111 = 12,345,678,987,654,321",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+      "correct_answer": "Galois",
+      "incorrect_answers": [
+        "Abel",
+        "Euler",
+        "Gauss"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the equation for the area of a sphere?",
+      "correct_answer": "(4/3)&pi;r^3",
+      "incorrect_answers": [
+        "4&pi;r^2",
+        "(1/3)&pi;hr^2",
+        "&pi;r^4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What Greek letter is used to signify summation?",
+      "correct_answer": "Sigma",
+      "incorrect_answers": [
+        "Delta",
+        "Alpha",
+        "Omega"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the first Mersenne prime exponent over 1000?",
+      "correct_answer": "1279",
+      "incorrect_answers": [
+        "2203",
+        "1009",
+        "1069"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The proof for the Chinese Remainder Theorem used in Number Theory was NOT developed by its first publisher, Sun Tzu.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+      "correct_answer": "Galois Theory",
+      "incorrect_answers": [
+        "Galois&#039; Continued Fractions",
+        "Galois&#039; Method for PDE&#039;s ",
+        "Abelian Integration"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "To the nearest whole number, how many radians are in a whole circle?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What are the first 6 digits of the number &quot;Pi&quot;?",
+      "correct_answer": "3.14159",
+      "incorrect_answers": [
+        "3.14169",
+        "3.12423",
+        "3.25812"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the derivative of sin(x)",
+      "correct_answer": "cos(x)",
+      "incorrect_answers": [
+        "csc(x)",
+        "-cos(x)",
+        "-sin(x)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The notion of a &quot;set that contains all sets which do not contain themselves&quot; is a paradoxical idea attributed to which English philosopher?",
+      "correct_answer": "Bertrand Russel",
+      "incorrect_answers": [
+        "Francis Bacon",
+        "John Locke",
+        "Alfred North Whitehead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Integration is the reverse of what mathematical operation?",
+      "correct_answer": "Derivation",
+      "incorrect_answers": [
+        "Division",
+        "Standard Deviation",
+        "Multiplication"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "E = MC3",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "A scalene triangle has two sides of equal length.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which of the following dice is not a platonic solid?",
+      "correct_answer": "10-sided die",
+      "incorrect_answers": [
+        "12-sided die",
+        "20-sided die",
+        "8-sided die"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+      "correct_answer": "314.15 Inches",
+      "incorrect_answers": [
+        "380.1215 Inches",
+        "3141.5 Inches",
+        "1256.6 Inches"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting &quot;Eureka&quot; after discovering the principle of displacement?",
+      "correct_answer": "Archimedes",
+      "incorrect_answers": [
+        "Euclid",
+        "Homer",
+        "Eratosthenes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following mathematicians made major contributions to game theory?",
+      "correct_answer": "John Von Neumann",
+      "incorrect_answers": [
+        "Carl Friedrich Gauss",
+        "Leonhard Euler",
+        "Stefan Banach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "How many sides does a heptagon have?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "8",
+        "6",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+      "correct_answer": "33.9",
+      "incorrect_answers": [
+        "30.0",
+        "27.4",
+        "10.6"
+      ]
+    }
+ ,
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+      "correct_answer": "Shamir",
+      "incorrect_answers": [
+        "Secure",
+        "Schottky",
+        "Stable"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+      "correct_answer": "ADPCM Sampler",
+      "incorrect_answers": [
+        "FM Synthesizer",
+        "Programmable Sound Generator (PSG)",
+        "PCM Sampler"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "Ada Lovelace is often considered the first computer programmer.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+      "correct_answer": "Hexidecimal",
+      "incorrect_answers": [
+        "Binary",
+        "Duodecimal",
+        "Octal"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The first computer bug was formed by faulty wires.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which one of these is not an official development name for a Ubuntu release?",
+      "correct_answer": "Mystic Mansion",
+      "incorrect_answers": [
+        "Trusty Tahr",
+        "Utopic Unicorn",
+        "Wily Werewolf"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which of these programming languages is a low-level language?",
+      "correct_answer": "Assembly",
+      "incorrect_answers": [
+        "Python",
+        "C#",
+        "Pascal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+      "correct_answer": "&lt;marquee&gt;&lt;/marquee&gt;",
+      "incorrect_answers": [
+        "&lt;scroll&gt;&lt;/scroll&gt;",
+        "&lt;move&gt;&lt;/move&gt;",
+        "&lt;slide&gt;&lt;/slide&gt;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+      "correct_answer": "Motorola 68000",
+      "incorrect_answers": [
+        "Zilog Z80",
+        "Yamaha YM2612",
+        "Intel 8088"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Whistler was the codename of this Microsoft Operating System.",
+      "correct_answer": "Windows XP",
+      "incorrect_answers": [
+        "Windows 2000",
+        "Windows 7",
+        "Windows 95"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Australia, Japan, and Southeast Asia are in which ITU Region?",
+      "correct_answer": "Region 3",
+      "incorrect_answers": [
+        "Region 1",
+        "Region 2",
+        "Region 4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "In any programming language, what is the most common way to iterate through an array?",
+      "correct_answer": "&#039;For&#039; loops",
+      "incorrect_answers": [
+        "&#039;If&#039; Statements",
+        "&#039;Do-while&#039; loops",
+        "&#039;While&#039; loops"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What internet protocol was documented in RFC 1459?",
+      "correct_answer": "IRC",
+      "incorrect_answers": [
+        "HTTP",
+        "HTTPS",
+        "FTP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+      "correct_answer": "Non-impact printer",
+      "incorrect_answers": [
+        "Impact printer",
+        "Daisywheel printer",
+        "Dot matrix printer"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "Linus Torvalds created Linux and Git.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The HTML5 standard was published in 2014.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Early RAM was directly seated onto the motherboard and could not be easily removed.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "Time on Computers is measured via the EPOX System.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which of these people was NOT a founder of Apple Inc?",
+      "correct_answer": "Jonathan Ive",
+      "incorrect_answers": [
+        "Steve Jobs",
+        "Ronald Wayne",
+        "Steve Wozniak"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "When did the online streaming service &quot;Mixer&quot; launch?",
+      "correct_answer": "2016",
+      "incorrect_answers": [
+        "2013",
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the number of keys on a standard Windows Keyboard?",
+      "correct_answer": "104",
+      "incorrect_answers": [
+        "64",
+        "94",
+        "76"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What amount of bits commonly equals one byte?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "64"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "eBay",
+        "Overstock",
+        "Shopify"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "RAM stands for Random Access Memory.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the name of the default theme that is installed with Windows XP?",
+      "correct_answer": "Luna",
+      "incorrect_answers": [
+        "Neptune",
+        "Whistler",
+        "Bliss"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The logo for Snapchat is a Bell.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "How many cores does the Intel i7-6950X have?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "12",
+        "8",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the term MIME stand for, in regards to computing?",
+      "correct_answer": "Multipurpose Internet Mail Extensions",
+      "incorrect_answers": [
+        "Mail Internet Mail Exchange",
+        "Multipurpose Interleave Mail Exchange",
+        "Mail Interleave Method Exchange"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+      "correct_answer": "New Mexico",
+      "incorrect_answers": [
+        "Washington",
+        "Colorado",
+        "Arizona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What was the first commerically available computer processor?",
+      "correct_answer": "Intel 4004",
+      "incorrect_answers": [
+        "Intel 486SX",
+        "TMS 1000",
+        "AMD AM386"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+      "correct_answer": "Taiwan",
+      "incorrect_answers": [
+        "United States",
+        "Germany",
+        "China (People&#039;s Republic of)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+      "correct_answer": "?:",
+      "incorrect_answers": [
+        "??",
+        "if then",
+        "?"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+      "correct_answer": "Inkscape",
+      "incorrect_answers": [
+        "Paint.NET",
+        "GIMP",
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+      "correct_answer": "Quantum Teleportation",
+      "incorrect_answers": [
+        "Super Dense Coding",
+        "Quantum Entanglement",
+        "Quantum Programming"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Approximately how many Apple I personal computers were created?",
+      "correct_answer": "200",
+      "incorrect_answers": [
+        "100",
+        "500",
+        "1000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Released in 2001, the first edition of Apple&#039;s Mac OS X operating system (version 10.0) was given what animal code name?",
+      "correct_answer": "Cheetah",
+      "incorrect_answers": [
+        "Puma",
+        "Tiger",
+        "Leopard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What was the name of the security vulnerability found in Bash in 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": [
+        "Heartbleed",
+        "Bashbug",
+        "Stagefright"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What does LTS stand for in the software market?",
+      "correct_answer": "Long Term Support",
+      "incorrect_answers": [
+        "Long Taco Service",
+        "Ludicrous Transfer Speed",
+        "Ludicrous Turbo Speed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the acronym CDN stand for in terms of networking?",
+      "correct_answer": "Content Delivery Network",
+      "incorrect_answers": [
+        "Content Distribution Network",
+        "Computational Data Network",
+        "Compressed Data Network"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What does GHz stand for?",
+      "correct_answer": "Gigahertz",
+      "incorrect_answers": [
+        "Gigahotz",
+        "Gigahetz",
+        "Gigahatz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What was the name given to Android 4.3?",
+      "correct_answer": "Jelly Bean",
+      "incorrect_answers": [
+        "Lollipop",
+        "Nutella",
+        "Froyo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+      "correct_answer": "44.1 kHz",
+      "incorrect_answers": [
+        "32.0 kHz",
+        "1.5 MHz",
+        "20.5 kHz"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What programming language was GitHub written in?",
+      "correct_answer": "Ruby",
+      "incorrect_answers": [
+        "JavaScript",
+        "Python",
+        "Lua"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What is the code name for the mobile operating system Android 7.0?",
+      "correct_answer": "Nougat",
+      "incorrect_answers": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What does CPU stand for?",
+      "correct_answer": "Central Processing Unit",
+      "incorrect_answers": [
+        "Central Process Unit",
+        "Computer Personal Unit",
+        "Central Processor Unit"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "A Boolean value of &quot;0&quot; represents which of these words?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "On which day did the World Wide Web go online?",
+      "correct_answer": "December 20, 1990",
+      "incorrect_answers": [
+        "December 17, 1996",
+        "November 12, 1990",
+        "November 24, 1995"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "HTML is what type of language?",
+      "correct_answer": "Markup Language",
+      "incorrect_answers": [
+        "Macro Language",
+        "Programming Language",
+        "Scripting Language"
+      ]
+    }
+  ,
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the Linnean name of the domestic apple tree?",
+      "correct_answer": "Malus pumila",
+      "incorrect_answers": [
+        "Malus americana",
+        "Pomus domestica",
+        "Appelus delectica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the largest animal currently on Earth?",
+      "correct_answer": "Blue Whale",
+      "incorrect_answers": [
+        "Orca",
+        "Colossal Squid",
+        "Giraffe"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Frederick Banting and John Macleod won a Nobel Prize for their contributions to the scientific fields of quantum mechanics.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The word &quot;science&quot; stems from the word &quot;scire&quot; meaning what?",
+      "correct_answer": "To know",
+      "incorrect_answers": [
+        "To measure",
+        "To live",
+        "To count"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Stars consist mainly of hydrogen and which other gas?",
+      "correct_answer": "Helium",
+      "incorrect_answers": [
+        "Oxygen",
+        "Argon",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many types of quarks are there in the standard model of physics?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is NOT a word used to describe an earthquake?",
+      "correct_answer": "Drop-slide",
+      "incorrect_answers": [
+        "Foreshock",
+        "Strike-slip",
+        "Temblor"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Sugar contains fat.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is isobutylphenylpropanoic acid more commonly known as?",
+      "correct_answer": "Ibuprofen",
+      "incorrect_answers": [
+        "Morphine",
+        "Ketamine",
+        "Aspirin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many objects are equivalent to one mole?",
+      "correct_answer": "6.022 x 10^23",
+      "incorrect_answers": [
+        "6.002 x 10^22",
+        "6.022 x 10^22",
+        "6.002 x 10^23"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Who discovered the Law of Gravity?",
+      "correct_answer": "Sir Isaac Newton",
+      "incorrect_answers": [
+        "Galileo Galilei",
+        "Charles Darwin",
+        "Albert Einstein"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which one of these is scientific term for &quot;Brain Freeze&quot;?",
+      "correct_answer": "Sphenopalatine Ganglioneuralgia",
+      "incorrect_answers": [
+        "Hyacinthoides Italica",
+        "Amaranthus Retroflexus",
+        "Amblyomma Americanum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+      "correct_answer": "Ernest Rutherford",
+      "incorrect_answers": [
+        "Joseph John Thomson",
+        "Archimedes",
+        "Niels Henrik David Bohr"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which scientific unit is named after an Italian nobleman?",
+      "correct_answer": "Volt",
+      "incorrect_answers": [
+        "Pascal",
+        "Ohm",
+        "Hertz"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Centripetal force is an apparent force that acts outward on a body moving around a center, arising from the body&#039;s inertia.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many chromosomes are in your body cells?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "21",
+        "22",
+        "24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The core of the Sun can reach which temperature?",
+      "correct_answer": "27&deg; Million F (15&deg; Million C)",
+      "incorrect_answers": [
+        "938,000&deg; F (521093.3&deg; C)",
+        "8&deg; Billion F (&deg;4.4 Billion C)",
+        "Absolute Zero (Both F and C)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The &#039;Islets of Langerhans&#039; is found in which human organ?",
+      "correct_answer": "Pancreas",
+      "incorrect_answers": [
+        "Kidney",
+        "Liver",
+        "Brain"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "In the periodic table, Potassium&#039;s symbol is the letter K.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Shrimp can swim backwards.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Steel is an alloy of Iron and Carbon.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "The Earth and the Moon roughly have the same mass.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the colour of unoxidized blood?",
+      "correct_answer": "Red",
+      "incorrect_answers": [
+        "Blue",
+        "Purple",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is radiation measured in?",
+      "correct_answer": "Gray ",
+      "incorrect_answers": [
+        "Watt",
+        "Decibel",
+        "Kelvin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of these animals belongs in class Chondrichthyes?",
+      "correct_answer": "Great white shark",
+      "incorrect_answers": [
+        "Octopus",
+        "Killer whale",
+        "Catfish"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Enthalpy is a measure of the energy that is not available for work during a thermodynamic process.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Burning which of these metals will produce a bright white flame?",
+      "correct_answer": "Magnesium",
+      "incorrect_answers": [
+        "Copper",
+        "Lithium",
+        "Lead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the hottest planet in the Solar System?",
+      "correct_answer": "Venus",
+      "incorrect_answers": [
+        "Mars",
+        "Mercury",
+        "Jupiter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of these stars is the largest?",
+      "correct_answer": "UY Scuti",
+      "incorrect_answers": [
+        "VY Canis Majoris",
+        "Betelgeuse",
+        "RW Cephei"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "An Astronomical Unit is the distance between Earth and the Moon.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the common name of the chemical compound &quot;dihydrogen monoxide&quot;?",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Methane",
+        "Ammonia ",
+        "Laughing Gas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What element on the periodic table has 92 electrons?",
+      "correct_answer": "Uranium",
+      "incorrect_answers": [
+        "Sulfur",
+        "Hydrogen",
+        "Iron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Where is the Gluteus Maximus muscle located?",
+      "correct_answer": "Butt",
+      "incorrect_answers": [
+        "Arm",
+        "Head",
+        "Torso"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of these is NOT a part of the structure of a typical neuron?",
+      "correct_answer": "Islets of Langerhans",
+      "incorrect_answers": [
+        "Node of Ranvier",
+        "Schwann cell",
+        "Myelin sheath"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The Doppler effect applies to light.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which noble gas has the lowest atomic number?",
+      "correct_answer": "Helium",
+      "incorrect_answers": [
+        "Neon",
+        "Argon",
+        "Krypton"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Salt is 100% composed of Sodium.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the largest planet in the Solar System?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Saturn",
+        "Earth",
+        "Mars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What medication was once commonly used as rat poison?",
+      "correct_answer": "Coumadin",
+      "incorrect_answers": [
+        "Aspirin",
+        "Eliquis",
+        "Tylenol"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Human cells typically have how many copies of each gene?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many bones are in the human body?",
+      "correct_answer": "206",
+      "incorrect_answers": [
+        "203",
+        "209",
+        "200"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What does DNA stand for?",
+      "correct_answer": "Deoxyribonucleic Acid",
+      "incorrect_answers": [
+        "Deoxyribogenetic Acid",
+        "Deoxyribogenetic Atoms",
+        "Detoxic Acid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "About what percentage of the Earth&#039;s surface is water? ",
+      "correct_answer": "70%",
+      "incorrect_answers": [
+        "30%",
+        "50%",
+        "90%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+      "correct_answer": "The presence or absence of a nucleus",
+      "incorrect_answers": [
+        "The overall size",
+        "The presence or absence of certain organelles",
+        "The mode of reproduction"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the half-life of Uranium-235?",
+      "correct_answer": "703,800,000 years",
+      "incorrect_answers": [
+        "4,300,400,000 years",
+        "1,260,900,000 years",
+        "Uranium-235 is a stable isotope"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "A plant that has a life cycle for more than a year is known as an annual.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What was the first organic compound to be synthesized from inorganic compounds?",
+      "correct_answer": "Urea",
+      "incorrect_answers": [
+        "Propane",
+        "Ethanol",
+        "Formaldehyde"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "It was once believed that injecting shark cartilage into people would prevent them from contracting cancer.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Folic acid is the synthetic form of which vitamin?",
+      "correct_answer": "Vitamin B",
+      "incorrect_answers": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the atomic number of the element Strontium?",
+      "correct_answer": "38",
+      "incorrect_answers": [
+        "73",
+        "47",
+        "11"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+      "correct_answer": "1969",
+      "incorrect_answers": [
+        "1965",
+        "1966",
+        "1973"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "One of the deadliest pandemics, the &quot;Spanish Flu&quot;, killed off what percentage of the human world population at the time?",
+      "correct_answer": "3 to 6 percent",
+      "incorrect_answers": [
+        "6 to 10 percent",
+        "1 to 3 percent",
+        "less than 1 percent"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "The USS Missouri (BB-63) last served in the Korean War.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In addition to his career as an astrologer and &quot;prophet&quot;, Nostradamus published a 1555 treatise that included a section on what?",
+      "correct_answer": "Making jams and jellies",
+      "incorrect_answers": [
+        "Teaching parrots to talk",
+        "Cheating at card games",
+        "Digging graves"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What date was the first flight of the P-40 Warhawk?",
+      "correct_answer": "October 14 1938",
+      "incorrect_answers": [
+        "August 21 1939",
+        "January 12 1940",
+        "June 1 1939"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Vikings were the first Europeans to discover North America.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What was William Frederick Cody better known as?",
+      "correct_answer": "Buffalo Bill",
+      "incorrect_answers": [
+        "Billy the Kid",
+        "Wild Bill Hickok",
+        "Pawnee Bill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "How old was Adolf Hitler when he died?",
+      "correct_answer": "56",
+      "incorrect_answers": [
+        "43",
+        "65",
+        "47"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did the United States formally declare war on Japan, entering World War II?",
+      "correct_answer": "December 8, 1941",
+      "incorrect_answers": [
+        "June 6, 1944",
+        "June 22, 1941",
+        "September 1, 1939"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which one of these countries was NOT in the Central Powers during WWI?",
+      "correct_answer": "Spain",
+      "incorrect_answers": [
+        "Austria-Hungary",
+        "Turkey",
+        "Germany"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Adolf Hitler was born on which date?",
+      "correct_answer": "April 20, 1889",
+      "incorrect_answers": [
+        "June 12, 1889",
+        "February 6, 1889",
+        "April 16, 1889"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane&#039;s conquests?",
+      "correct_answer": "5%",
+      "incorrect_answers": [
+        "1%",
+        "3%",
+        "&lt;1%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed &quot;the Kingmaker&quot;?",
+      "correct_answer": "Richard Neville",
+      "incorrect_answers": [
+        "Richard III",
+        "Henry V",
+        "Thomas Warwick"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+      "correct_answer": "Harry S. Truman",
+      "incorrect_answers": [
+        "Dwight D. Eisenhower",
+        "Franklin D. Roosevelt",
+        "Herbert Hoover"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Japan was part of the Allied Powers during World War I.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "America&#039;s Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+      "correct_answer": "Star Wars",
+      "incorrect_answers": [
+        "Jaws",
+        "Blade Runner",
+        "Alien"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Theodore Roosevelt Jr. was the only General involved in the initial assault on D-Day.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who was the last emperor of Mexico?",
+      "correct_answer": "Ferdinand Maximilian",
+      "incorrect_answers": [
+        "Andr&eacute;s Manuel L&oacute;pez Obrador",
+        "Napoleon III",
+        "Agust&iacute;n de Iturbide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "The &quot;Trail of Tears&quot; was a result of which United States President&#039;s Indian Removal Policy?",
+      "correct_answer": "Andrew Jackson",
+      "incorrect_answers": [
+        "Harry S. Truman",
+        "Martin Van Buren",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+      "correct_answer": "Afghanistan",
+      "incorrect_answers": [
+        "China",
+        "Iraq",
+        "Russia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did L. L. Zamenhof first publish &quot;Unua Libro&quot;, the first publication describing his international language Esperanto?",
+      "correct_answer": "1887",
+      "incorrect_answers": [
+        "1897",
+        "1905",
+        "1915"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What is the historical name of Sri Lanka?",
+      "correct_answer": "Ceylon",
+      "incorrect_answers": [
+        "Myanmar",
+        "Colombo",
+        "Badulla"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
+      "correct_answer": "Mormon",
+      "incorrect_answers": [
+        "Catholic",
+        "Jewish",
+        "Atheist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+      "correct_answer": "Brazzaville",
+      "incorrect_answers": [
+        "Algiers",
+        "Paris",
+        "Tunis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+      "correct_answer": "Paul Dirac",
+      "incorrect_answers": [
+        "Niels Bohr",
+        "Albert Einstein",
+        "Werner Heisenberg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "When did Canada leave the confederation to become their own nation?",
+      "correct_answer": "July 1st, 1867",
+      "incorrect_answers": [
+        "July 1st, 1763",
+        "July 1st, 1832",
+        "July 1st, 1902"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did Texas secede from Mexico?",
+      "correct_answer": "1836",
+      "incorrect_answers": [
+        "1838",
+        "1845",
+        "1844"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What is the name of the Boeing B-29 that dropped the &#039;Little Boy&#039; atomic bomb on Hiroshima?",
+      "correct_answer": "Enola Gay",
+      "incorrect_answers": [
+        "Necessary Evil",
+        "The Great Artiste",
+        "Full House"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+      "correct_answer": "Aragon",
+      "incorrect_answers": [
+        "Galicia",
+        "Le&oacute;n",
+        "Navarre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which Nation did NOT have a Colony in modern-day North America?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": [
+        "Spain",
+        "Sweden",
+        "Netherlands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "When was Google founded?",
+      "correct_answer": "September 4, 1998",
+      "incorrect_answers": [
+        "October 9, 1997",
+        "December 12, 1989",
+        "Feburary 7th, 2000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "How many sonatas did Ludwig van Beethoven write?",
+      "correct_answer": "32",
+      "incorrect_answers": [
+        "50",
+        "31",
+        "21"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+      "correct_answer": "100 Megatons",
+      "incorrect_answers": [
+        "200 Megatons",
+        "75 Megatons",
+        "150 Megatons"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+      "correct_answer": "Goldsboro, North Carolina",
+      "incorrect_answers": [
+        "Hicksville, New York",
+        "Jacksonville, Florida",
+        "Conway, Arkansas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What Southeast Asian country was formerly known as &#039;Lan Xang&#039;?",
+      "correct_answer": "Laos",
+      "incorrect_answers": [
+        "Cambodia",
+        "Vietnam",
+        "Thailand"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The two atomic bombs dropped on Japan by the United States in August 1945 were named &#039;Little Man&#039; and &#039;Fat Boy&#039;.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Joseph Stalin&#039;s real name was Ioseb Bessarionis dze Dzugashvili.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "King Henry VIII was the second monarch of which European royal house?",
+      "correct_answer": "Tudor",
+      "incorrect_answers": [
+        "York",
+        "Stuart",
+        "Lancaster"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+      "correct_answer": "Operation Downfall",
+      "incorrect_answers": [
+        "Operation Boarding Party",
+        "Operation Ironclad",
+        "Operation Aflame"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+      "correct_answer": "Franklin Pierce",
+      "incorrect_answers": [
+        "Andrew Johnson",
+        "Abraham Lincoln",
+        "James Polk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year is considered to be the year that the British Empire ended?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1986",
+        "1981",
+        "1971"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which infamous European traitor was known as &quot;the last person to enter Parliament with honest intentions&quot;?",
+      "correct_answer": "Guy Fawkes",
+      "incorrect_answers": [
+        "Robert Catesby",
+        "Francis Tresham",
+        "Everard Digby"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Hundred Years&#039; War was fought for more than a hundred years.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Franz Joseph I was the last emperor of Austria.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Thomas Crapper was a plumber who invented the flushing toilet.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "During what war did the &quot;Cuban Missile Crisis&quot; occur?",
+      "correct_answer": "Cold War",
+      "incorrect_answers": [
+        "World War I",
+        "World War II",
+        "Revolutionary War"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which country gifted the Statue of Liberty to the United States of America?",
+      "correct_answer": "France",
+      "incorrect_answers": [
+        "Spain",
+        "England",
+        "Germany"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "The Battle of Trafalgar took place on October 23rd, 1805",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+      "correct_answer": "Tog II",
+      "incorrect_answers": [
+        "M4 Sherman",
+        "Tiger H1",
+        "T-34"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the topscorer for England national football team?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "David Beckham",
+        "Steven Gerrard",
+        "Michael Owen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of these countries&#039; national teams qualified for the 2018 FIFA World Cup in Russia?",
+      "correct_answer": "Tunisia",
+      "incorrect_answers": [
+        "United States of America",
+        "Italy",
+        "Netherlands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "How many players are there in an association football/soccer team?",
+      "correct_answer": "11",
+      "incorrect_answers": [
+        "10",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+      "correct_answer": "Alan Shearer",
+      "incorrect_answers": [
+        "Wayne Rooney",
+        "Robbie Fowler",
+        "Thierry Henry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+      "correct_answer": "Brooklyn",
+      "incorrect_answers": [
+        "Las Vegas",
+        "Boston",
+        "Seattle"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Formula E is an auto racing series that uses hybrid electric race cars.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?",
+      "correct_answer": "Quebec City",
+      "incorrect_answers": [
+        "Houston",
+        "Montreal",
+        "New York"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which two teams played in Super Bowl XLII?",
+      "correct_answer": "The New York Giants &amp; The New England Patriots",
+      "incorrect_answers": [
+        "The Green Bay Packers &amp; The Pittsburgh Steelers",
+        "The Philadelphia Eagles &amp; The New England Patriots",
+        "The Seattle Seahawks &amp; The Denver Broncos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "correct_answer": "Badminton",
+      "incorrect_answers": [
+        "Table Tennis",
+        "Rugby",
+        "Cricket"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "How many scoring zones are there on a conventional dart board?",
+      "correct_answer": "82",
+      "incorrect_answers": [
+        "62",
+        "42",
+        "102"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who won the 1998 Daytona 500?",
+      "correct_answer": "Dale Earnhardt",
+      "incorrect_answers": [
+        "John Anderson",
+        "Jeff Gordon",
+        "Michael Walltrip"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "A stimpmeter measures the speed of a ball over what surface?",
+      "correct_answer": "Golf Putting Green",
+      "incorrect_answers": [
+        " Football Pitch",
+        "Cricket Outfield",
+        "Pinball Table"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "What year did the New Orleans Saints win the Super Bowl?",
+      "correct_answer": "2010",
+      "incorrect_answers": [
+        "2008",
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Peyton Manning retired after winning Super Bowl XLIX.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Robin Van Persie",
+        "David Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In bowling, what is the term used for getting three consecutive strikes?",
+      "correct_answer": "Turkey",
+      "incorrect_answers": [
+        "Flamingo",
+        "Birdie",
+        "Eagle"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What is the nickname of Northampton town&#039;s rugby union club?",
+      "correct_answer": "Saints",
+      "incorrect_answers": [
+        "Harlequins",
+        "Saracens",
+        "Wasps"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "11",
+        "20",
+        "22"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "When was the FC Schalke 04 founded?",
+      "correct_answer": "1904",
+      "incorrect_answers": [
+        "1909",
+        "2008",
+        "1999"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+      "correct_answer": "Ole Gunnar Solskj&aelig;r",
+      "incorrect_answers": [
+        "Dwight Yorke",
+        "Andy Cole",
+        "David Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+      "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
+      "incorrect_answers": [
+        "Cristiano Ronaldo los Santos Diego",
+        "Cristiano Armando Diego Ronaldo",
+        "Cristiano Luis Armando Ronaldo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of these teams isn&#039;t a member of the NHL&#039;s &quot;Original Six&quot; era?",
+      "correct_answer": "Philadelphia Flyers",
+      "incorrect_answers": [
+        "New York Rangers",
+        "Toronto Maple Leafs",
+        "Boston Bruins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+      "correct_answer": "Carlos Sainz Jr.",
+      "incorrect_answers": [
+        "Daniil Kvyat",
+        "Jolyon Palmer",
+        "Rio Haryanto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What is the highest belt you can get in Taekwondo?",
+      "correct_answer": "Black",
+      "incorrect_answers": [
+        "White",
+        "Red",
+        "Green"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Tennis was once known as Racquetball.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which team was the 2014-2015 NBA Champions?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": [
+        "Cleveland Cavaliers",
+        "Houston Rockets",
+        "Atlanta Hawks"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+      "correct_answer": "Europe",
+      "incorrect_answers": [
+        "South America",
+        "Africa",
+        "Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "What is the name of the &quot;tool&quot; used to hit the white ball in snooker or billiards?",
+      "correct_answer": "Cue",
+      "incorrect_answers": [
+        "Racquet",
+        "Bat",
+        "Mallet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the UEFA Champions League in 2017?",
+      "correct_answer": "Real Madrid C.F.",
+      "incorrect_answers": [
+        "Atletico Madrid",
+        "AS Monaco FC",
+        "Juventus F.C."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who won the 2018 Monaco Grand Prix?",
+      "correct_answer": "Daniel Ricciardo",
+      "incorrect_answers": [
+        "Sebastian Vettel",
+        "Kimi Raikkonen",
+        "Lewis Hamilton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which team won 2014 FIFA World Cup in Brazil?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Argentina",
+        "Brazil",
+        "Netherlands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+      "correct_answer": "Vladivostok",
+      "incorrect_answers": [
+        "Rostov-on-Don",
+        "Yekaterinburg",
+        "Kaliningrad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Why was The Green Monster at Fenway Park was originally built?",
+      "correct_answer": "To prevent viewing games from outside the park.",
+      "incorrect_answers": [
+        "To make getting home runs harder.",
+        "To display advertisements.",
+        "To provide extra seating."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+      "correct_answer": "Jules Bianchi",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Ronald Ratzenberger",
+        "Gilles Villeneuve"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": [
+        "West Germany",
+        "Soviet Union",
+        "Brazil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the 2015 Formula 1 World Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Nico Rosberg",
+        "Sebastian Vettel",
+        "Jenson Button"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "The song &quot;Three Lions&quot; by the Lightning Seeds was made for which major football event in 1996?",
+      "correct_answer": "European Championships",
+      "incorrect_answers": [
+        "World Cup",
+        "Champions League",
+        "Confederations Cup"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "What team won the 2016 MLS Cup?",
+      "correct_answer": "Seattle Sounders",
+      "incorrect_answers": [
+        "Colorado Rapids",
+        "Toronto FC",
+        "Montreal Impact"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "In what sport does Fanny Chmelar compete for Germany?",
+      "correct_answer": "Skiing",
+      "incorrect_answers": [
+        "Swimming",
+        "Showjumping",
+        "Gymnastics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the UEFA Champions League in 2016?",
+      "correct_answer": "Real Madrid C.F.",
+      "incorrect_answers": [
+        "FC Bayern Munich",
+        "Atletico Madrid",
+        "Manchester City F.C."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What is the oldest team in the NFL?",
+      "correct_answer": "Arizona Cardinals",
+      "incorrect_answers": [
+        "Chicago Bears",
+        "Green Bay Packers",
+        "New York Giants"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "&quot;Stadium of Light&quot; is the home stadium for which soccer team?",
+      "correct_answer": "Sunderland FC",
+      "incorrect_answers": [
+        "Barcelona FC",
+        "Paris Saints-Germain",
+        "Manchester United"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?",
+      "correct_answer": "Mercedes-AMG Petronas",
+      "incorrect_answers": [
+        "Scuderia Ferrari",
+        "McLaren Honda",
+        "Red Bull Racing Renault"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What country hosted the 2014 Winter Olympics?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Canada",
+        "United States",
+        "Germany"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which country hosted the 2018 FIFA World Cup?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Germany",
+        "United States",
+        "Saudi Arabia"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
+import { useAuth } from "@/contexts/AuthContext";
 import { 
   Play, 
   Trophy, 
@@ -16,6 +17,8 @@ import {
 } from "lucide-react";
 
 export const Landing = () => {
+  const { user, isAuthenticated } = useAuth();
+  
   const features = [
     {
       icon: Brain,
@@ -75,15 +78,25 @@ export const Landing = () => {
               <Button variant="hero" size="xl" asChild>
                 <Link to="/dashboard">
                   <Play className="w-5 h-5 mr-2" />
-                  Start Playing
+                  {isAuthenticated ? 'Continue Playing' : 'Start Playing'}
                 </Link>
               </Button>
               
-              <Button variant="ghost" size="xl" asChild>
-                <Link to="/signup">
-                  Sign Up Free
-                </Link>
-              </Button>
+              {!isAuthenticated && (
+                <Button variant="ghost" size="xl" asChild>
+                  <Link to="/signup">
+                    Sign Up Free
+                  </Link>
+                </Button>
+              )}
+              
+              {isAuthenticated && (
+                <Button variant="ghost" size="xl" asChild>
+                  <Link to="/profile">
+                    View Profile
+                  </Link>
+                </Button>
+              )}
             </div>
 
             {/* Hero Stats */}
@@ -120,23 +133,60 @@ export const Landing = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, index) => (
-              <Card 
-                key={index} 
-                className="card-quiz p-6 text-center group hover:card-glow animate-scale-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                  <feature.icon className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-muted-foreground">
-                  {feature.description}
-                </p>
-              </Card>
-            ))}
+            {features.map((feature, index) => {
+              const isAnalytics = feature.title === "Analytics";
+              const isPlayLearn = feature.title === "Play & Learn";
+              const isCompete = feature.title === "Compete";
+              
+              const cardContent = (
+                <>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                    <feature.icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">
+                    {feature.title}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {feature.description}
+                  </p>
+                </>
+              );
+              
+              // Determine navigation path based on feature type
+              const isCreateQuiz = feature.title === "Create Quizzes";
+              let navigationPath = null;
+              
+              if (isAnalytics) {
+                navigationPath = isAuthenticated ? "/profile?tab=analytics" : "/login";
+              } else if (isCreateQuiz) {
+                navigationPath = isAuthenticated ? "/dashboard" : "/login";
+              } else if (isPlayLearn) {
+                navigationPath = "/dashboard";
+              } else if (isCompete) {
+                navigationPath = "/leaderboard";
+              }
+              
+              return navigationPath ? (
+                <Link
+                  key={index}
+                  to={navigationPath}
+                  className="block animate-scale-in"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <Card className="card-quiz p-6 text-center group hover:card-glow cursor-pointer transition-all hover:scale-105">
+                    {cardContent}
+                  </Card>
+                </Link>
+              ) : (
+                <Card 
+                  key={index} 
+                  className="card-quiz p-6 text-center group hover:card-glow animate-scale-in"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  {cardContent}
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -146,30 +196,58 @@ export const Landing = () => {
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="space-y-6 max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-white">
-              Ready to Challenge Your Mind?
+              {isAuthenticated ? `Welcome back, ${user?.name?.split(' ')[0]}!` : 'Ready to Challenge Your Mind?'}
             </h2>
             <p className="text-xl text-white/90">
-              Join thousands of learners who are already mastering their knowledge with Quiz Master.
+              {isAuthenticated 
+                ? 'Continue your learning journey and challenge yourself with new quizzes.'
+                : 'Join thousands of learners who are already mastering their knowledge with Quiz Master.'
+              }
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="secondary" size="xl" asChild>
-                <Link to="/signup">
-                  <Star className="w-5 h-5 mr-2" />
-                  Get Started Now
-                </Link>
-              </Button>
-              
-              <Button 
-                variant="outline" 
-                size="xl" 
-                className="border-white text-white hover:bg-white hover:text-primary"
-                asChild
-              >
-                <Link to="/dashboard">
-                  Browse Quizzes
-                </Link>
-              </Button>
+              {!isAuthenticated ? (
+                <>
+                  <Button variant="secondary" size="xl" asChild>
+                    <Link to="/signup">
+                      <Star className="w-5 h-5 mr-2" />
+                      Get Started Now
+                    </Link>
+                  </Button>
+                  
+                  <Button 
+                    variant="secondary" 
+                    size="xl" 
+                    className="bg-white/20 border-white/30 text-white hover:bg-white hover:text-primary backdrop-blur-sm"
+                    asChild
+                  >
+                    <Link to="/dashboard">
+                      Browse Quizzes
+                    </Link>
+                  </Button>
+                </>
+              ) : (
+                <>
+                  <Button variant="secondary" size="xl" asChild>
+                    <Link to="/dashboard">
+                      <Play className="w-5 h-5 mr-2" />
+                      Take a Quiz
+                    </Link>
+                  </Button>
+                  
+                  <Button 
+                    variant="secondary" 
+                    size="xl" 
+                    className="bg-white/20 border-white/30 text-white hover:bg-white hover:text-primary backdrop-blur-sm"
+                    asChild
+                  >
+                    <Link to="/leaderboard">
+                      <Trophy className="w-5 h-5 mr-2" />
+                      View Leaderboard
+                    </Link>
+                  </Button>
+                </>
+              )}
             </div>
           </div>
         </div>

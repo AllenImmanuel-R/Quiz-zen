@@ -1,104 +1,111 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Trophy, Medal, Crown, Filter, TrendingUp } from "lucide-react";
+import { Trophy, Medal, Crown, Filter, TrendingUp, Loader2, AlertCircle } from "lucide-react";
+import { getGlobalLeaderboard, getCategoryLeaderboard, getUserRank, LeaderboardEntry, UserRank } from "@/lib/api";
+import { useToast } from "@/hooks/use-toast";
+import { useAuth } from "@/contexts/AuthContext";
 
 const categories = [
   "All Categories",
-  "Technology", 
   "Science",
-  "Math",
-  "Arts",
+  "Technology",
+  "Math", 
+  "History",
   "Sports"
 ];
 
-const leaderboardData = [
-  {
-    rank: 1,
-    name: "Alex Chen",
-    avatar: "",
-    score: 2847,
-    quizzesCompleted: 45,
-    accuracy: 94,
-    streak: 12,
-    badges: ["🏆", "🎯", "🔥"]
-  },
-  {
-    rank: 2,
-    name: "Sarah Johnson",
-    avatar: "",
-    score: 2756,
-    quizzesCompleted: 42,
-    accuracy: 91,
-    streak: 8,
-    badges: ["🥈", "📚", "⭐"]
-  },
-  {
-    rank: 3,
-    name: "Mike Rodriguez",
-    avatar: "",
-    score: 2689,
-    quizzesCompleted: 38,
-    accuracy: 89,
-    streak: 15,
-    badges: ["🥉", "🔥", "🎯"]
-  },
-  {
-    rank: 4,
-    name: "Emily Davis",
-    avatar: "",
-    score: 2534,
-    quizzesCompleted: 41,
-    accuracy: 87,
-    streak: 6,
-    badges: ["📚", "⭐", "🎨"]
-  },
-  {
-    rank: 5,
-    name: "David Kim",
-    avatar: "",
-    score: 2489,
-    quizzesCompleted: 35,
-    accuracy: 92,
-    streak: 9,
-    badges: ["🔥", "🎯", "💻"]
-  },
-  {
-    rank: 6,
-    name: "Lisa Wang",
-    avatar: "",
-    score: 2367,
-    quizzesCompleted: 39,
-    accuracy: 85,
-    streak: 4,
-    badges: ["📚", "⭐", "🧬"]
-  },
-  {
-    rank: 7,
-    name: "James Wilson",
-    avatar: "",
-    score: 2298,
-    quizzesCompleted: 33,
-    accuracy: 88,
-    streak: 7,
-    badges: ["🏃", "⚽", "🎯"]
-  },
-  {
-    rank: 8,
-    name: "Maria Garcia",
-    avatar: "",
-    score: 2234,
-    quizzesCompleted: 37,
-    accuracy: 86,
-    streak: 5,
-    badges: ["🎨", "📚", "⭐"]
-  }
-];
+// Convert LeaderboardEntry to display format
+function formatLeaderboardEntry(entry: LeaderboardEntry, index: number) {
+  return {
+    rank: entry.rank || (index + 1),
+    name: entry.user.name,
+    avatar: "", // TODO: Add avatar support
+    score: Math.round(entry.averageScore),
+    quizzesCompleted: entry.quizzesTaken,
+    accuracy: Math.round(entry.averageScore),
+    totalPoints: entry.totalPoints,
+    streak: 0, // TODO: Add streak tracking
+    badges: getBadgesForUser(entry)
+  };
+}
+
+function getBadgesForUser(entry: LeaderboardEntry): string[] {
+  const badges: string[] = [];
+  
+  // Rank badges
+  if (entry.rank === 1) badges.push("🏆");
+  else if (entry.rank === 2) badges.push("🥈");
+  else if (entry.rank === 3) badges.push("🥉");
+  
+  // Achievement badges
+  if (entry.quizzesTaken >= 50) badges.push("🎯");
+  if (entry.averageScore >= 90) badges.push("⭐");
+  if (entry.quizzesTaken >= 20) badges.push("📚");
+  
+  return badges;
+}
 
 export const Leaderboard = () => {
   const [selectedCategory, setSelectedCategory] = useState("All Categories");
+  const [leaderboardData, setLeaderboardData] = useState<any[]>([]);
+  const [userRank, setUserRank] = useState<UserRank | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const { toast } = useToast();
+  const { user } = useAuth();
+
+  // Fetch leaderboard data
+  useEffect(() => {
+    const fetchLeaderboard = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        
+        let data: LeaderboardEntry[];
+        
+        if (selectedCategory === "All Categories") {
+          data = await getGlobalLeaderboard();
+        } else {
+          data = await getCategoryLeaderboard(selectedCategory);
+        }
+        
+        const formattedData = data.map((entry, index) => formatLeaderboardEntry(entry, index));
+        setLeaderboardData(formattedData);
+        
+      } catch (err) {
+        console.error("Failed to fetch leaderboard:", err);
+        setError("Failed to load leaderboard. Please try again later.");
+        toast({
+          title: "Error",
+          description: "Failed to load leaderboard data.",
+          variant: "destructive"
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    fetchLeaderboard();
+  }, [selectedCategory, toast]);
+  
+  // Fetch user rank if logged in
+  useEffect(() => {
+    const fetchUserRank = async () => {
+      if (!user) return;
+      
+      try {
+        const rank = await getUserRank();
+        setUserRank(rank);
+      } catch (err) {
+        console.error("Failed to fetch user rank:", err);
+      }
+    };
+    
+    fetchUserRank();
+  }, [user]);
 
   const getRankIcon = (rank: number) => {
     switch (rank) {
@@ -165,9 +172,30 @@ export const Leaderboard = () => {
           </Button>
         </div>
 
+        {/* Loading State */}
+        {loading && (
+          <div className="text-center py-12">
+            <Loader2 className="w-12 h-12 animate-spin text-primary mx-auto mb-4" />
+            <p className="text-muted-foreground">Loading leaderboard...</p>
+          </div>
+        )}
+
+        {/* Error State */}
+        {error && !loading && (
+          <div className="text-center py-12">
+            <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
+              <AlertCircle className="w-12 h-12 text-destructive" />
+            </div>
+            <h3 className="text-xl font-semibold text-foreground mb-2">Error</h3>
+            <p className="text-muted-foreground mb-4">{error}</p>
+            <Button onClick={() => window.location.reload()}>Try Again</Button>
+          </div>
+        )}
+
         {/* Top 3 Podium */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          {leaderboardData.slice(0, 3).map((player, index) => (
+        {!loading && !error && leaderboardData.length > 0 && (
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            {leaderboardData.slice(0, 3).map((player, index) => (
             <Card 
               key={player.rank} 
               className={`card-quiz p-6 text-center relative ${getRankCardStyle(player.rank)} animate-scale-in`}
@@ -217,11 +245,13 @@ export const Leaderboard = () => {
                 </div>
               )}
             </Card>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
 
         {/* Rest of Leaderboard */}
-        <Card className="card-quiz">
+        {!loading && !error && leaderboardData.length > 3 && (
+          <Card className="card-quiz">
           <div className="p-6">
             <h2 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
               <TrendingUp className="w-6 h-6 text-primary" />
@@ -276,26 +306,51 @@ export const Leaderboard = () => {
               ))}
             </div>
           </div>
-        </Card>
+          </Card>
+        )}
+
+        {/* Empty State */}
+        {!loading && !error && leaderboardData.length === 0 && (
+          <div className="text-center py-12">
+            <Trophy className="w-24 h-24 text-muted-foreground mx-auto mb-4" />
+            <h3 className="text-xl font-semibold text-foreground mb-2">No Rankings Yet</h3>
+            <p className="text-muted-foreground">
+              {selectedCategory === "All Categories" 
+                ? "Be the first to complete a quiz and claim the top spot!" 
+                : `No one has completed a ${selectedCategory} quiz yet. Be the first!`
+              }
+            </p>
+          </div>
+        )}
 
         {/* Your Rank */}
-        <Card className="card-quiz mt-8 p-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <div className="w-8 text-center text-lg font-bold text-muted-foreground">#42</div>
-              <Avatar className="w-12 h-12 border-2 border-primary/20">
-                <AvatarFallback className="bg-gradient-primary text-white font-semibold">
-                  YU
-                </AvatarFallback>
-              </Avatar>
-              <div>
-                <h3 className="font-semibold text-foreground">You</h3>
-                <p className="text-sm text-muted-foreground">Keep climbing! 🚀</p>
+        {user && userRank && (
+          <Card className="card-quiz mt-8 p-6">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className="w-8 text-center text-lg font-bold text-muted-foreground">
+                  #{selectedCategory === "All Categories" 
+                    ? userRank.globalRank 
+                    : userRank.categoryRanks[selectedCategory] || "--"}
+                </div>
+                <Avatar className="w-12 h-12 border-2 border-primary/20">
+                  <AvatarFallback className="bg-gradient-primary text-white font-semibold">
+                    {user.name.split(' ').map(n => n[0]).join('').toUpperCase()}
+                  </AvatarFallback>
+                </Avatar>
+                <div>
+                  <h3 className="font-semibold text-foreground">{user.name}</h3>
+                  <p className="text-sm text-muted-foreground">
+                    {userRank.globalRank === 0 ? "Complete a quiz to get ranked!" : "Keep climbing! 🚀"}
+                  </p>
+                </div>
+              </div>
+              <div className="text-xl font-bold text-foreground">
+                {userRank.globalRank > 0 ? `#${userRank.globalRank}` : "--"}
               </div>
             </div>
-            <div className="text-xl font-bold text-foreground">1,456</div>
-          </div>
-        </Card>
+          </Card>
+        )}
       </div>
     </div>
   );

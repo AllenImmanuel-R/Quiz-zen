@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { QuizCard } from "@/components/quiz/QuizCard";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -10,97 +11,93 @@ import {
   Brain,
   Globe,
   Code,
-  Palette,
+  BookOpen,
   Calculator,
-  Trophy
+  Trophy,
+  MapPin,
+  Music,
+  Loader2
 } from "lucide-react";
+import { getQuizzes, Quiz } from "@/lib/api";
+import { useToast } from "@/hooks/use-toast";
 
 const categories = [
-  { name: "All", icon: Globe, count: 42 },
-  { name: "Science", icon: Brain, count: 12 },
-  { name: "Technology", icon: Code, count: 8 },
-  { name: "Arts", icon: Palette, count: 6 },
-  { name: "Math", icon: Calculator, count: 10 },
-  { name: "Sports", icon: Trophy, count: 6 }
-];
-
-const quizzes = [
-  {
-    id: "1",
-    title: "JavaScript Fundamentals",
-    description: "Test your knowledge of core JavaScript concepts including variables, functions, and DOM manipulation.",
-    category: "Technology",
-    difficulty: "Medium" as const,
-    questionCount: 20,
-    duration: 15,
-    playersCount: 1234
-  },
-  {
-    id: "2", 
-    title: "World Geography",
-    description: "Explore capitals, countries, and landmarks from around the globe in this comprehensive geography quiz.",
-    category: "Science",
-    difficulty: "Easy" as const,
-    questionCount: 15,
-    duration: 10,
-    playersCount: 856
-  },
-  {
-    id: "3",
-    title: "Advanced Mathematics", 
-    description: "Challenge yourself with calculus, algebra, and complex mathematical problems.",
-    category: "Math",
-    difficulty: "Hard" as const,
-    questionCount: 25,
-    duration: 30,
-    playersCount: 432
-  },
-  {
-    id: "4",
-    title: "Art History Masterpieces",
-    description: "Journey through art history from Renaissance to modern contemporary works.",
-    category: "Arts", 
-    difficulty: "Medium" as const,
-    questionCount: 18,
-    duration: 20,
-    playersCount: 678
-  },
-  {
-    id: "5",
-    title: "Olympic Sports Trivia",
-    description: "Test your knowledge about Olympic games, records, and famous athletes throughout history.",
-    category: "Sports",
-    difficulty: "Easy" as const,
-    questionCount: 12,
-    duration: 8,
-    playersCount: 945
-  },
-  {
-    id: "6",
-    title: "React & TypeScript",
-    description: "Advanced concepts in React development with TypeScript integration and best practices.",
-    category: "Technology",
-    difficulty: "Hard" as const,
-    questionCount: 30,
-    duration: 25,
-    playersCount: 567
-  }
+  { name: "All", icon: Globe, count: 0 },
+  { name: "Science", icon: Brain, count: 0 },
+  { name: "Technology", icon: Code, count: 0 },
+  { name: "History", icon: BookOpen, count: 0 },
+  { name: "Math", icon: Calculator, count: 0 },
+  { name: "Sports", icon: Trophy, count: 0 }
 ];
 
 export const Dashboard = () => {
+  const [allQuizzes, setAllQuizzes] = useState<Quiz[]>([]);
+  const [displayedQuizzes, setDisplayedQuizzes] = useState<Quiz[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+  const { toast } = useToast();
+  const navigate = useNavigate();
 
-  const filteredQuizzes = quizzes.filter(quiz => {
-    const matchesCategory = selectedCategory === "All" || quiz.category === selectedCategory;
-    const matchesSearch = quiz.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         quiz.description.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
+  // Update category counts based on all quizzes (not filtered)
+  const categoriesWithCounts = categories.map(category => ({
+    ...category,
+    count: category.name === "All" 
+      ? allQuizzes.length 
+      : allQuizzes.filter(quiz => quiz.category === category.name).length
+  }));
 
-  const handlePlayQuiz = (quizId: string) => {
-    // Navigate to quiz play page
-    console.log(`Starting quiz: ${quizId}`);
+  // Fetch all quizzes on mount
+  useEffect(() => {
+    const fetchAllQuizzes = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        
+        const data = await getQuizzes({});
+        setAllQuizzes(data);
+      } catch (err) {
+        console.error("Failed to fetch quizzes:", err);
+        setError("Failed to load quizzes. Please try again later.");
+        toast({
+          title: "Error",
+          description: "Failed to load quizzes. Please try again later.",
+          variant: "destructive"
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchAllQuizzes();
+  }, [toast]);
+
+  // Filter and search quizzes based on selected category and search query
+  useEffect(() => {
+    let filtered = allQuizzes;
+
+    // Filter by category
+    if (selectedCategory !== "All") {
+      filtered = filtered.filter(quiz => quiz.category === selectedCategory);
+    }
+
+    // Filter by search query
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(quiz => 
+        quiz.title.toLowerCase().includes(query) ||
+        quiz.description.toLowerCase().includes(query) ||
+        quiz.category.toLowerCase().includes(query)
+      );
+    }
+
+    setDisplayedQuizzes(filtered);
+  }, [allQuizzes, selectedCategory, searchQuery]);
+
+  // Handle playing a quiz
+  const handlePlayQuiz = (id: string) => {
+    navigate(`/quiz/${id}`);
   };
 
   return (
@@ -147,7 +144,7 @@ export const Dashboard = () => {
         <div className="mb-8">
           <h2 className="text-xl font-semibold text-foreground mb-4">Categories</h2>
           <div className="flex flex-wrap gap-3">
-            {categories.map((category) => (
+            {categoriesWithCounts.map((category) => (
               <Badge
                 key={category.name}
                 variant={selectedCategory === category.name ? "default" : "outline"}
@@ -166,39 +163,61 @@ export const Dashboard = () => {
           </div>
         </div>
 
-        {/* Quizzes Grid */}
-        <div className="mb-8">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl font-semibold text-foreground">
-              {selectedCategory === "All" ? "All Quizzes" : `${selectedCategory} Quizzes`}
-              <span className="text-muted-foreground ml-2">({filteredQuizzes.length})</span>
-            </h2>
+        {/* Loading State */}
+        {loading && (
+          <div className="text-center py-12">
+            <Loader2 className="w-12 h-12 animate-spin text-primary mx-auto mb-4" />
+            <p className="text-muted-foreground">Loading quizzes...</p>
           </div>
+        )}
 
-          {filteredQuizzes.length > 0 ? (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredQuizzes.map((quiz, index) => (
-                <div
-                  key={quiz.id}
-                  className="animate-scale-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <QuizCard {...quiz} onPlay={handlePlayQuiz} />
-                </div>
-              ))}
+        {/* Error State */}
+        {error && !loading && (
+          <div className="text-center py-12">
+            <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
+              <Search className="w-12 h-12 text-muted-foreground" />
             </div>
-          ) : (
-            <div className="text-center py-12">
-              <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
-                <Search className="w-12 h-12 text-muted-foreground" />
+            <h3 className="text-xl font-semibold text-foreground mb-2">Error</h3>
+            <p className="text-muted-foreground mb-4">{error}</p>
+            <Button onClick={() => window.location.reload()}>Try Again</Button>
+          </div>
+        )}
+
+        {/* Quizzes Grid */}
+        {!loading && !error && (
+          <div className="mb-8">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-xl font-semibold text-foreground">
+                {selectedCategory === "All" ? "All Quizzes" : `${selectedCategory} Quizzes`}
+                <span className="text-muted-foreground ml-2">({displayedQuizzes.length})</span>
+              </h2>
+            </div>
+
+            {displayedQuizzes.length > 0 ? (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {displayedQuizzes.map((quiz, index) => (
+                  <div
+                    key={quiz._id}
+                    className="animate-scale-in"
+                    style={{ animationDelay: `${index * 0.1}s` }}
+                  >
+                    <QuizCard {...quiz} onPlay={handlePlayQuiz} />
+                  </div>
+                ))}
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-2">No quizzes found</h3>
-              <p className="text-muted-foreground">
-                Try adjusting your search or browse a different category.
-              </p>
-            </div>
-          )}
-        </div>
+            ) : (
+              <div className="text-center py-12">
+                <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Search className="w-12 h-12 text-muted-foreground" />
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">No quizzes found</h3>
+                <p className="text-muted-foreground">
+                  Try adjusting your search or browse a different category.
+                </p>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,5235 @@
+[
+  {
+    "title": "Math Hard Quiz",
+    "description": "Test your math knowledge with hard level questions",
+    "category": "Math",
+    "difficulty": "Hard",
+    "duration": 30,
+    "image": "/images/math-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+        "options": [
+          {
+            "text": "1729",
+            "isCorrect": true
+          },
+          {
+            "text": "91",
+            "isCorrect": false
+          },
+          {
+            "text": "561",
+            "isCorrect": false
+          },
+          {
+            "text": "4104",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1729"
+      },
+      {
+        "text": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+        "options": [
+          {
+            "text": "1.58 x 10^22",
+            "isCorrect": false
+          },
+          {
+            "text": "1.58 x 10^20",
+            "isCorrect": true
+          },
+          {
+            "text": "1.58 x 10^24",
+            "isCorrect": false
+          },
+          {
+            "text": "1.58 x  10^18",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1.58 x 10^20"
+      },
+      {
+        "text": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+        "options": [
+          {
+            "text": "Cartesian Coordinates",
+            "isCorrect": false
+          },
+          {
+            "text": "Elliptic Paraboloid of Descartes",
+            "isCorrect": false
+          },
+          {
+            "text": "Folium of Descartes",
+            "isCorrect": true
+          },
+          {
+            "text": "Descarte's Helicoid",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Folium of Descartes"
+      },
+      {
+        "text": "L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "In Topology, the complement of an open set is a closed set.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What is the approximate value of mathematical constant e?",
+        "options": [
+          {
+            "text": "1.62",
+            "isCorrect": false
+          },
+          {
+            "text": "2.72",
+            "isCorrect": true
+          },
+          {
+            "text": "1.41",
+            "isCorrect": false
+          },
+          {
+            "text": "3.14",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 2.72"
+      },
+      {
+        "text": "How many zeptometres are inside one femtometre?",
+        "options": [
+          {
+            "text": "1000",
+            "isCorrect": false
+          },
+          {
+            "text": "1,000,000,000",
+            "isCorrect": false
+          },
+          {
+            "text": "1,000,000",
+            "isCorrect": true
+          },
+          {
+            "text": "10",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1,000,000"
+      },
+      {
+        "text": "The binary number \"101001101\" is equivalent to the Decimal number \"334\"",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What is the derivative of Acceleration with respect to time?",
+        "options": [
+          {
+            "text": "Jerk",
+            "isCorrect": true
+          },
+          {
+            "text": "Bump",
+            "isCorrect": false
+          },
+          {
+            "text": "Slide",
+            "isCorrect": false
+          },
+          {
+            "text": "Shift",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Jerk"
+      },
+      {
+        "text": "Which of the following famous mathematicians died in a duel at the age of 20?",
+        "options": [
+          {
+            "text": "Abel",
+            "isCorrect": false
+          },
+          {
+            "text": "Gauss",
+            "isCorrect": false
+          },
+          {
+            "text": "Galois",
+            "isCorrect": true
+          },
+          {
+            "text": "Euler",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Galois"
+      },
+      {
+        "text": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+        "options": [
+          {
+            "text": "Abelian Integration",
+            "isCorrect": false
+          },
+          {
+            "text": "Galois Theory",
+            "isCorrect": true
+          },
+          {
+            "text": "Galois' Method for PDE's ",
+            "isCorrect": false
+          },
+          {
+            "text": "Galois' Continued Fractions",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Galois Theory"
+      },
+      {
+        "text": "The notion of a \"set that contains all sets which do not contain themselves\" is a paradoxical idea attributed to which English philosopher?",
+        "options": [
+          {
+            "text": "Bertrand Russel",
+            "isCorrect": true
+          },
+          {
+            "text": "John Locke",
+            "isCorrect": false
+          },
+          {
+            "text": "Francis Bacon",
+            "isCorrect": false
+          },
+          {
+            "text": "Alfred North Whitehead",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Bertrand Russel"
+      },
+      {
+        "text": "Integration is the reverse of what mathematical operation?",
+        "options": [
+          {
+            "text": "Multiplication",
+            "isCorrect": false
+          },
+          {
+            "text": "Derivation",
+            "isCorrect": true
+          },
+          {
+            "text": "Division",
+            "isCorrect": false
+          },
+          {
+            "text": "Standard Deviation",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Derivation"
+      },
+      {
+        "text": "Which of the following mathematicians made major contributions to game theory?",
+        "options": [
+          {
+            "text": "John Von Neumann",
+            "isCorrect": true
+          },
+          {
+            "text": "Stefan Banach",
+            "isCorrect": false
+          },
+          {
+            "text": "Carl Friedrich Gauss",
+            "isCorrect": false
+          },
+          {
+            "text": "Leonhard Euler",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: John Von Neumann"
+      },
+      {
+        "text": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+        "options": [
+          {
+            "text": "33.9",
+            "isCorrect": true
+          },
+          {
+            "text": "30.0",
+            "isCorrect": false
+          },
+          {
+            "text": "27.4",
+            "isCorrect": false
+          },
+          {
+            "text": "10.6",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 33.9"
+      }
+    ]
+  },
+  {
+    "title": "Math Medium Quiz",
+    "description": "Test your math knowledge with medium level questions",
+    "category": "Math",
+    "difficulty": "Medium",
+    "duration": 20,
+    "image": "/images/math-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "What is the alphanumeric representation of the imaginary number?",
+        "options": [
+          {
+            "text": "n",
+            "isCorrect": false
+          },
+          {
+            "text": "i",
+            "isCorrect": true
+          },
+          {
+            "text": "x",
+            "isCorrect": false
+          },
+          {
+            "text": "e",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: i"
+      },
+      {
+        "text": "What shape does sin(x) or cos(x) make on a graph?",
+        "options": [
+          {
+            "text": "A Parabola",
+            "isCorrect": false
+          },
+          {
+            "text": "A Straight Line",
+            "isCorrect": false
+          },
+          {
+            "text": "Waves",
+            "isCorrect": true
+          },
+          {
+            "text": "Zig-Zags",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Waves"
+      },
+      {
+        "text": "How many zeros are there in a googol?",
+        "options": [
+          {
+            "text": "10",
+            "isCorrect": false
+          },
+          {
+            "text": "1,000,000",
+            "isCorrect": false
+          },
+          {
+            "text": "100",
+            "isCorrect": true
+          },
+          {
+            "text": "1,000",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 100"
+      },
+      {
+        "text": "Which of these probability distributions is NOT discrete?",
+        "options": [
+          {
+            "text": "Poisson",
+            "isCorrect": false
+          },
+          {
+            "text": "Hyper-geometric",
+            "isCorrect": false
+          },
+          {
+            "text": "Binomial",
+            "isCorrect": false
+          },
+          {
+            "text": "Normal",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Normal"
+      },
+      {
+        "text": "The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "The set of all algebraic numbers is countable.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "A 'Millinillion' is a real number.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "How many books are in Euclid's Elements of Geometry?",
+        "options": [
+          {
+            "text": "13",
+            "isCorrect": true
+          },
+          {
+            "text": "17",
+            "isCorrect": false
+          },
+          {
+            "text": "10",
+            "isCorrect": false
+          },
+          {
+            "text": "8",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 13"
+      },
+      {
+        "text": "In a normal distribution, 95% of the data lies within how many standard deviations of the mean?",
+        "options": [
+          {
+            "text": "2",
+            "isCorrect": true
+          },
+          {
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "text": "1",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 2"
+      },
+      {
+        "text": "In the hexadecimal system, what number comes after 9?",
+        "options": [
+          {
+            "text": "16",
+            "isCorrect": false
+          },
+          {
+            "text": "10",
+            "isCorrect": false
+          },
+          {
+            "text": "The Letter A",
+            "isCorrect": true
+          },
+          {
+            "text": "The Number 0",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: The Letter A"
+      },
+      {
+        "text": "What type of function is x&sup2;+2x+1?",
+        "options": [
+          {
+            "text": "Linear",
+            "isCorrect": false
+          },
+          {
+            "text": "Exponential",
+            "isCorrect": false
+          },
+          {
+            "text": "Quadratic",
+            "isCorrect": true
+          },
+          {
+            "text": "Rational",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Quadratic"
+      },
+      {
+        "text": "You can square root a negative number with an imaginary number \"i\".",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "111,111,111 x 111,111,111 = 12,345,678,987,654,321",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What Greek letter is used to signify summation?",
+        "options": [
+          {
+            "text": "Omega",
+            "isCorrect": false
+          },
+          {
+            "text": "Sigma",
+            "isCorrect": true
+          },
+          {
+            "text": "Alpha",
+            "isCorrect": false
+          },
+          {
+            "text": "Delta",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Sigma"
+      },
+      {
+        "text": "What is the first Mersenne prime exponent over 1000?",
+        "options": [
+          {
+            "text": "1009",
+            "isCorrect": false
+          },
+          {
+            "text": "1279",
+            "isCorrect": true
+          },
+          {
+            "text": "1069",
+            "isCorrect": false
+          },
+          {
+            "text": "2203",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1279"
+      },
+      {
+        "text": "The proof for the Chinese Remainder Theorem used in Number Theory was NOT developed by its first publisher, Sun Tzu.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "To the nearest whole number, how many radians are in a whole circle?",
+        "options": [
+          {
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "text": "6",
+            "isCorrect": true
+          },
+          {
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 6"
+      },
+      {
+        "text": "What are the first 6 digits of the number \"Pi\"?",
+        "options": [
+          {
+            "text": "3.12423",
+            "isCorrect": false
+          },
+          {
+            "text": "3.14159",
+            "isCorrect": true
+          },
+          {
+            "text": "3.25812",
+            "isCorrect": false
+          },
+          {
+            "text": "3.14169",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 3.14159"
+      },
+      {
+        "text": "What is the derivative of sin(x)",
+        "options": [
+          {
+            "text": "-cos(x)",
+            "isCorrect": false
+          },
+          {
+            "text": "csc(x)",
+            "isCorrect": false
+          },
+          {
+            "text": "cos(x)",
+            "isCorrect": true
+          },
+          {
+            "text": "-sin(x)",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: cos(x)"
+      },
+      {
+        "text": "E = MC3",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "Which of the following dice is not a platonic solid?",
+        "options": [
+          {
+            "text": "8-sided die",
+            "isCorrect": false
+          },
+          {
+            "text": "10-sided die",
+            "isCorrect": true
+          },
+          {
+            "text": "12-sided die",
+            "isCorrect": false
+          },
+          {
+            "text": "20-sided die",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 10-sided die"
+      },
+      {
+        "text": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+        "options": [
+          {
+            "text": "380.1215 Inches",
+            "isCorrect": false
+          },
+          {
+            "text": "314.15 Inches",
+            "isCorrect": true
+          },
+          {
+            "text": "3141.5 Inches",
+            "isCorrect": false
+          },
+          {
+            "text": "1256.6 Inches",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 314.15 Inches"
+      },
+      {
+        "text": "Which greek mathematician ran through the streets of Syracuse naked while shouting \"Eureka\" after discovering the principle of displacement?",
+        "options": [
+          {
+            "text": "Homer",
+            "isCorrect": false
+          },
+          {
+            "text": "Archimedes",
+            "isCorrect": true
+          },
+          {
+            "text": "Eratosthenes",
+            "isCorrect": false
+          },
+          {
+            "text": "Euclid",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Archimedes"
+      }
+    ]
+  },
+  {
+    "title": "Math Easy Quiz",
+    "description": "Test your math knowledge with easy level questions",
+    "category": "Math",
+    "difficulty": "Easy",
+    "duration": 10,
+    "image": "/images/math-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "An equilateral triangle always has every angle measuring 60°.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "The sum of any two odd integers is odd.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "In Roman Numerals, what does XL equate to?",
+        "options": [
+          {
+            "text": "90",
+            "isCorrect": false
+          },
+          {
+            "text": "40",
+            "isCorrect": true
+          },
+          {
+            "text": "15",
+            "isCorrect": false
+          },
+          {
+            "text": "60",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 40"
+      },
+      {
+        "text": "What is the correct order of operations for solving equations?",
+        "options": [
+          {
+            "text": "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+            "isCorrect": false
+          },
+          {
+            "text": "The order in which the operations are written.",
+            "isCorrect": false
+          },
+          {
+            "text": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+            "isCorrect": true
+          },
+          {
+            "text": "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Parentheses, Exponents, Multiplication, Division, Addition, Subtraction"
+      },
+      {
+        "text": "The 'Squaring the Circle' problem is solvable.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What type of angle is greater than 90°?",
+        "options": [
+          {
+            "text": "Acute",
+            "isCorrect": false
+          },
+          {
+            "text": "Obtuse",
+            "isCorrect": true
+          },
+          {
+            "text": "Straight",
+            "isCorrect": false
+          },
+          {
+            "text": "Right",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Obtuse"
+      },
+      {
+        "text": "What's the square root of 49?",
+        "options": [
+          {
+            "text": "12",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "text": "7",
+            "isCorrect": true
+          },
+          {
+            "text": "9",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 7"
+      },
+      {
+        "text": "The metric prefix \"atto-\" makes a measurement how much smaller than the base unit?",
+        "options": [
+          {
+            "text": "One Quintillionth",
+            "isCorrect": true
+          },
+          {
+            "text": "One Billionth",
+            "isCorrect": false
+          },
+          {
+            "text": "One Septillionth",
+            "isCorrect": false
+          },
+          {
+            "text": "One Quadrillionth",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: One Quintillionth"
+      },
+      {
+        "text": "How many sides does a trapezium have?",
+        "options": [
+          {
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "text": "6",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 4"
+      },
+      {
+        "text": "What is the equation for the area of a sphere?",
+        "options": [
+          {
+            "text": "(4/3)&pi;r^3",
+            "isCorrect": true
+          },
+          {
+            "text": "4&pi;r^2",
+            "isCorrect": false
+          },
+          {
+            "text": "&pi;r^4",
+            "isCorrect": false
+          },
+          {
+            "text": "(1/3)&pi;hr^2",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: (4/3)&pi;r^3"
+      },
+      {
+        "text": "A scalene triangle has two sides of equal length.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "How many sides does a heptagon have?",
+        "options": [
+          {
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "text": "8",
+            "isCorrect": false
+          },
+          {
+            "text": "7",
+            "isCorrect": true
+          },
+          {
+            "text": "6",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 7"
+      }
+    ]
+  },
+  {
+    "title": "Technology Medium Quiz",
+    "description": "Test your technology knowledge with medium level questions",
+    "category": "Technology",
+    "difficulty": "Medium",
+    "duration": 20,
+    "image": "/images/tech-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "What does the 'S' in the RSA encryption algorithm stand for?",
+        "options": [
+          {
+            "text": "Stable",
+            "isCorrect": false
+          },
+          {
+            "text": "Schottky",
+            "isCorrect": false
+          },
+          {
+            "text": "Secure",
+            "isCorrect": false
+          },
+          {
+            "text": "Shamir",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Shamir"
+      },
+      {
+        "text": "The first computer bug was formed by faulty wires.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "Which one of these is not an official development name for a Ubuntu release?",
+        "options": [
+          {
+            "text": "Wily Werewolf",
+            "isCorrect": false
+          },
+          {
+            "text": "Utopic Unicorn",
+            "isCorrect": false
+          },
+          {
+            "text": "Trusty Tahr",
+            "isCorrect": false
+          },
+          {
+            "text": "Mystic Mansion",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Mystic Mansion"
+      },
+      {
+        "text": "Which of these programming languages is a low-level language?",
+        "options": [
+          {
+            "text": "Pascal",
+            "isCorrect": false
+          },
+          {
+            "text": "Python",
+            "isCorrect": false
+          },
+          {
+            "text": "Assembly",
+            "isCorrect": true
+          },
+          {
+            "text": "C#",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Assembly"
+      },
+      {
+        "text": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+        "options": [
+          {
+            "text": "<slide></slide>",
+            "isCorrect": false
+          },
+          {
+            "text": "<scroll></scroll>",
+            "isCorrect": false
+          },
+          {
+            "text": "<move></move>",
+            "isCorrect": false
+          },
+          {
+            "text": "<marquee></marquee>",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: <marquee></marquee>"
+      },
+      {
+        "text": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+        "options": [
+          {
+            "text": "Motorola 68000",
+            "isCorrect": true
+          },
+          {
+            "text": "Yamaha YM2612",
+            "isCorrect": false
+          },
+          {
+            "text": "Zilog Z80",
+            "isCorrect": false
+          },
+          {
+            "text": "Intel 8088",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Motorola 68000"
+      },
+      {
+        "text": "Whistler was the codename of this Microsoft Operating System.",
+        "options": [
+          {
+            "text": "Windows 95",
+            "isCorrect": false
+          },
+          {
+            "text": "Windows 2000",
+            "isCorrect": false
+          },
+          {
+            "text": "Windows XP",
+            "isCorrect": true
+          },
+          {
+            "text": "Windows 7",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Windows XP"
+      },
+      {
+        "text": "Laserjet and inkjet printers are both examples of what type of printer?",
+        "options": [
+          {
+            "text": "Impact printer",
+            "isCorrect": false
+          },
+          {
+            "text": "Dot matrix printer",
+            "isCorrect": false
+          },
+          {
+            "text": "Non-impact printer",
+            "isCorrect": true
+          },
+          {
+            "text": "Daisywheel printer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Non-impact printer"
+      },
+      {
+        "text": "The HTML5 standard was published in 2014.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Early RAM was directly seated onto the motherboard and could not be easily removed.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Which of these people was NOT a founder of Apple Inc?",
+        "options": [
+          {
+            "text": "Steve Wozniak",
+            "isCorrect": false
+          },
+          {
+            "text": "Jonathan Ive",
+            "isCorrect": true
+          },
+          {
+            "text": "Ronald Wayne",
+            "isCorrect": false
+          },
+          {
+            "text": "Steve Jobs",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Jonathan Ive"
+      },
+      {
+        "text": "When did the online streaming service \"Mixer\" launch?",
+        "options": [
+          {
+            "text": "2011",
+            "isCorrect": false
+          },
+          {
+            "text": "2009",
+            "isCorrect": false
+          },
+          {
+            "text": "2013",
+            "isCorrect": false
+          },
+          {
+            "text": "2016",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 2016"
+      },
+      {
+        "text": "What is the number of keys on a standard Windows Keyboard?",
+        "options": [
+          {
+            "text": "64",
+            "isCorrect": false
+          },
+          {
+            "text": "104",
+            "isCorrect": true
+          },
+          {
+            "text": "94",
+            "isCorrect": false
+          },
+          {
+            "text": "76",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 104"
+      },
+      {
+        "text": "Which internet company began life as an online bookstore called 'Cadabra'?",
+        "options": [
+          {
+            "text": "eBay",
+            "isCorrect": false
+          },
+          {
+            "text": "Amazon",
+            "isCorrect": true
+          },
+          {
+            "text": "Overstock",
+            "isCorrect": false
+          },
+          {
+            "text": "Shopify",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Amazon"
+      },
+      {
+        "text": "What is the name of the default theme that is installed with Windows XP?",
+        "options": [
+          {
+            "text": "Bliss",
+            "isCorrect": false
+          },
+          {
+            "text": "Whistler",
+            "isCorrect": false
+          },
+          {
+            "text": "Luna",
+            "isCorrect": true
+          },
+          {
+            "text": "Neptune",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Luna"
+      },
+      {
+        "text": "How many cores does the Intel i7-6950X have?",
+        "options": [
+          {
+            "text": "12",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "text": "8",
+            "isCorrect": false
+          },
+          {
+            "text": "10",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 10"
+      },
+      {
+        "text": "What does the term MIME stand for, in regards to computing?",
+        "options": [
+          {
+            "text": "Multipurpose Internet Mail Extensions",
+            "isCorrect": true
+          },
+          {
+            "text": "Mail Internet Mail Exchange",
+            "isCorrect": false
+          },
+          {
+            "text": "Mail Interleave Method Exchange",
+            "isCorrect": false
+          },
+          {
+            "text": "Multipurpose Interleave Mail Exchange",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Multipurpose Internet Mail Extensions"
+      },
+      {
+        "text": "While Apple was formed in California, in which western state was Microsoft founded?",
+        "options": [
+          {
+            "text": "Colorado",
+            "isCorrect": false
+          },
+          {
+            "text": "Washington",
+            "isCorrect": false
+          },
+          {
+            "text": "Arizona",
+            "isCorrect": false
+          },
+          {
+            "text": "New Mexico",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: New Mexico"
+      },
+      {
+        "text": "What was the first commerically available computer processor?",
+        "options": [
+          {
+            "text": "Intel 486SX",
+            "isCorrect": false
+          },
+          {
+            "text": "AMD AM386",
+            "isCorrect": false
+          },
+          {
+            "text": "Intel 4004",
+            "isCorrect": true
+          },
+          {
+            "text": "TMS 1000",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Intel 4004"
+      },
+      {
+        "text": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+        "options": [
+          {
+            "text": "United States",
+            "isCorrect": false
+          },
+          {
+            "text": "China (People's Republic of)",
+            "isCorrect": false
+          },
+          {
+            "text": "Taiwan",
+            "isCorrect": true
+          },
+          {
+            "text": "Germany",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Taiwan"
+      },
+      {
+        "text": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+        "options": [
+          {
+            "text": "??",
+            "isCorrect": false
+          },
+          {
+            "text": "?:",
+            "isCorrect": true
+          },
+          {
+            "text": "?",
+            "isCorrect": false
+          },
+          {
+            "text": "if then",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: ?:"
+      },
+      {
+        "text": "All of the following programs are classified as raster graphics editors EXCEPT:",
+        "options": [
+          {
+            "text": "Adobe Photoshop",
+            "isCorrect": false
+          },
+          {
+            "text": "Inkscape",
+            "isCorrect": true
+          },
+          {
+            "text": "GIMP",
+            "isCorrect": false
+          },
+          {
+            "text": "Paint.NET",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Inkscape"
+      },
+      {
+        "text": "Approximately how many Apple I personal computers were created?",
+        "options": [
+          {
+            "text": "200",
+            "isCorrect": true
+          },
+          {
+            "text": "100",
+            "isCorrect": false
+          },
+          {
+            "text": "500",
+            "isCorrect": false
+          },
+          {
+            "text": "1000",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 200"
+      },
+      {
+        "text": "What does the acronym CDN stand for in terms of networking?",
+        "options": [
+          {
+            "text": "Content Distribution Network",
+            "isCorrect": false
+          },
+          {
+            "text": "Content Delivery Network",
+            "isCorrect": true
+          },
+          {
+            "text": "Computational Data Network",
+            "isCorrect": false
+          },
+          {
+            "text": "Compressed Data Network",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Content Delivery Network"
+      },
+      {
+        "text": "What was the name given to Android 4.3?",
+        "options": [
+          {
+            "text": "Froyo",
+            "isCorrect": false
+          },
+          {
+            "text": "Nutella",
+            "isCorrect": false
+          },
+          {
+            "text": "Lollipop",
+            "isCorrect": false
+          },
+          {
+            "text": "Jelly Bean",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Jelly Bean"
+      },
+      {
+        "text": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+        "options": [
+          {
+            "text": "20.5 kHz",
+            "isCorrect": false
+          },
+          {
+            "text": "44.1 kHz",
+            "isCorrect": true
+          },
+          {
+            "text": "32.0 kHz",
+            "isCorrect": false
+          },
+          {
+            "text": "1.5 MHz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 44.1 kHz"
+      },
+      {
+        "text": "All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "A Boolean value of \"0\" represents which of these words?",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "On which day did the World Wide Web go online?",
+        "options": [
+          {
+            "text": "November 12, 1990",
+            "isCorrect": false
+          },
+          {
+            "text": "November 24, 1995",
+            "isCorrect": false
+          },
+          {
+            "text": "December 17, 1996",
+            "isCorrect": false
+          },
+          {
+            "text": "December 20, 1990",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: December 20, 1990"
+      }
+    ]
+  },
+  {
+    "title": "Technology Hard Quiz",
+    "description": "Test your technology knowledge with hard level questions",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "duration": 30,
+    "image": "/images/tech-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+        "options": [
+          {
+            "text": "Programmable Sound Generator (PSG)",
+            "isCorrect": false
+          },
+          {
+            "text": "FM Synthesizer",
+            "isCorrect": false
+          },
+          {
+            "text": "ADPCM Sampler",
+            "isCorrect": true
+          },
+          {
+            "text": "PCM Sampler",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: ADPCM Sampler"
+      },
+      {
+        "text": "Australia, Japan, and Southeast Asia are in which ITU Region?",
+        "options": [
+          {
+            "text": "Region 1",
+            "isCorrect": false
+          },
+          {
+            "text": "Region 3",
+            "isCorrect": true
+          },
+          {
+            "text": "Region 4",
+            "isCorrect": false
+          },
+          {
+            "text": "Region 2",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Region 3"
+      },
+      {
+        "text": "What internet protocol was documented in RFC 1459?",
+        "options": [
+          {
+            "text": "HTTP",
+            "isCorrect": false
+          },
+          {
+            "text": "HTTPS",
+            "isCorrect": false
+          },
+          {
+            "text": "FTP",
+            "isCorrect": false
+          },
+          {
+            "text": "IRC",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: IRC"
+      },
+      {
+        "text": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+        "options": [
+          {
+            "text": "Super Dense Coding",
+            "isCorrect": false
+          },
+          {
+            "text": "Quantum Programming",
+            "isCorrect": false
+          },
+          {
+            "text": "Quantum Entanglement",
+            "isCorrect": false
+          },
+          {
+            "text": "Quantum Teleportation",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Quantum Teleportation"
+      },
+      {
+        "text": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
+        "options": [
+          {
+            "text": "Tiger",
+            "isCorrect": false
+          },
+          {
+            "text": "Cheetah",
+            "isCorrect": true
+          },
+          {
+            "text": "Leopard",
+            "isCorrect": false
+          },
+          {
+            "text": "Puma",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Cheetah"
+      },
+      {
+        "text": "What was the name of the security vulnerability found in Bash in 2014?",
+        "options": [
+          {
+            "text": "Stagefright",
+            "isCorrect": false
+          },
+          {
+            "text": "Bashbug",
+            "isCorrect": false
+          },
+          {
+            "text": "Heartbleed",
+            "isCorrect": false
+          },
+          {
+            "text": "Shellshock",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Shellshock"
+      }
+    ]
+  },
+  {
+    "title": "Technology Easy Quiz",
+    "description": "Test your technology knowledge with easy level questions",
+    "category": "Technology",
+    "difficulty": "Easy",
+    "duration": 10,
+    "image": "/images/tech-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "Ada Lovelace is often considered the first computer programmer.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "The numbering system with a radix of 16 is more commonly referred to as ",
+        "options": [
+          {
+            "text": "Hexidecimal",
+            "isCorrect": true
+          },
+          {
+            "text": "Octal",
+            "isCorrect": false
+          },
+          {
+            "text": "Duodecimal",
+            "isCorrect": false
+          },
+          {
+            "text": "Binary",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Hexidecimal"
+      },
+      {
+        "text": "In any programming language, what is the most common way to iterate through an array?",
+        "options": [
+          {
+            "text": "'While' loops",
+            "isCorrect": false
+          },
+          {
+            "text": "'If' Statements",
+            "isCorrect": false
+          },
+          {
+            "text": "'For' loops",
+            "isCorrect": true
+          },
+          {
+            "text": "'Do-while' loops",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 'For' loops"
+      },
+      {
+        "text": "Linus Torvalds created Linux and Git.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Time on Computers is measured via the EPOX System.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "\"HTML\" stands for Hypertext Markup Language.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What amount of bits commonly equals one byte?",
+        "options": [
+          {
+            "text": "8",
+            "isCorrect": true
+          },
+          {
+            "text": "2",
+            "isCorrect": false
+          },
+          {
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "text": "64",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 8"
+      },
+      {
+        "text": "RAM stands for Random Access Memory.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "The logo for Snapchat is a Bell.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What does LTS stand for in the software market?",
+        "options": [
+          {
+            "text": "Ludicrous Transfer Speed",
+            "isCorrect": false
+          },
+          {
+            "text": "Long Taco Service",
+            "isCorrect": false
+          },
+          {
+            "text": "Ludicrous Turbo Speed",
+            "isCorrect": false
+          },
+          {
+            "text": "Long Term Support",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Long Term Support"
+      },
+      {
+        "text": "What does GHz stand for?",
+        "options": [
+          {
+            "text": "Gigahetz",
+            "isCorrect": false
+          },
+          {
+            "text": "Gigahertz",
+            "isCorrect": true
+          },
+          {
+            "text": "Gigahotz",
+            "isCorrect": false
+          },
+          {
+            "text": "Gigahatz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Gigahertz"
+      },
+      {
+        "text": "What programming language was GitHub written in?",
+        "options": [
+          {
+            "text": "Lua",
+            "isCorrect": false
+          },
+          {
+            "text": "Ruby",
+            "isCorrect": true
+          },
+          {
+            "text": "Python",
+            "isCorrect": false
+          },
+          {
+            "text": "JavaScript",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Ruby"
+      },
+      {
+        "text": "What is the code name for the mobile operating system Android 7.0?",
+        "options": [
+          {
+            "text": "Ice Cream Sandwich",
+            "isCorrect": false
+          },
+          {
+            "text": "Marshmallow",
+            "isCorrect": false
+          },
+          {
+            "text": "Nougat",
+            "isCorrect": true
+          },
+          {
+            "text": "Jelly Bean",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Nougat"
+      },
+      {
+        "text": "What does CPU stand for?",
+        "options": [
+          {
+            "text": "Central Process Unit",
+            "isCorrect": false
+          },
+          {
+            "text": "Central Processor Unit",
+            "isCorrect": false
+          },
+          {
+            "text": "Computer Personal Unit",
+            "isCorrect": false
+          },
+          {
+            "text": "Central Processing Unit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Central Processing Unit"
+      },
+      {
+        "text": "HTML is what type of language?",
+        "options": [
+          {
+            "text": "Scripting Language",
+            "isCorrect": false
+          },
+          {
+            "text": "Programming Language",
+            "isCorrect": false
+          },
+          {
+            "text": "Macro Language",
+            "isCorrect": false
+          },
+          {
+            "text": "Markup Language",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Markup Language"
+      }
+    ]
+  },
+  {
+    "title": "Science &amp; Nature Medium Quiz",
+    "description": "Test your science &amp; nature knowledge with medium level questions",
+    "category": "Science &amp; Nature",
+    "difficulty": "Medium",
+    "duration": 20,
+    "image": "/images/default-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "What is the Linnean name of the domestic apple tree?",
+        "options": [
+          {
+            "text": "Malus americana",
+            "isCorrect": false
+          },
+          {
+            "text": "Malus pumila",
+            "isCorrect": true
+          },
+          {
+            "text": "Pomus domestica",
+            "isCorrect": false
+          },
+          {
+            "text": "Appelus delectica",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Malus pumila"
+      },
+      {
+        "text": "Sugar contains fat.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+        "options": [
+          {
+            "text": "Archimedes",
+            "isCorrect": false
+          },
+          {
+            "text": "Niels Henrik David Bohr",
+            "isCorrect": false
+          },
+          {
+            "text": "Ernest Rutherford",
+            "isCorrect": true
+          },
+          {
+            "text": "Joseph John Thomson",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Ernest Rutherford"
+      },
+      {
+        "text": "Centripetal force is an apparent force that acts outward on a body moving around a center, arising from the body's inertia.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "In the periodic table, Potassium's symbol is the letter K.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Shrimp can swim backwards.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Steel is an alloy of Iron and Carbon.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What is the colour of unoxidized blood?",
+        "options": [
+          {
+            "text": "Red",
+            "isCorrect": true
+          },
+          {
+            "text": "Purple",
+            "isCorrect": false
+          },
+          {
+            "text": "Blue",
+            "isCorrect": false
+          },
+          {
+            "text": "Green",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Red"
+      },
+      {
+        "text": "What is radiation measured in?",
+        "options": [
+          {
+            "text": "Gray ",
+            "isCorrect": true
+          },
+          {
+            "text": "Decibel",
+            "isCorrect": false
+          },
+          {
+            "text": "Watt",
+            "isCorrect": false
+          },
+          {
+            "text": "Kelvin",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Gray "
+      },
+      {
+        "text": "Enthalpy is a measure of the energy that is not available for work during a thermodynamic process.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "Which of these stars is the largest?",
+        "options": [
+          {
+            "text": "VY Canis Majoris",
+            "isCorrect": false
+          },
+          {
+            "text": "Betelgeuse",
+            "isCorrect": false
+          },
+          {
+            "text": "RW Cephei",
+            "isCorrect": false
+          },
+          {
+            "text": "UY Scuti",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: UY Scuti"
+      },
+      {
+        "text": "Which of these is NOT a part of the structure of a typical neuron?",
+        "options": [
+          {
+            "text": "Node of Ranvier",
+            "isCorrect": false
+          },
+          {
+            "text": "Myelin sheath",
+            "isCorrect": false
+          },
+          {
+            "text": "Islets of Langerhans",
+            "isCorrect": true
+          },
+          {
+            "text": "Schwann cell",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Islets of Langerhans"
+      },
+      {
+        "text": "The Doppler effect applies to light.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What medication was once commonly used as rat poison?",
+        "options": [
+          {
+            "text": "Tylenol",
+            "isCorrect": false
+          },
+          {
+            "text": "Coumadin",
+            "isCorrect": true
+          },
+          {
+            "text": "Eliquis",
+            "isCorrect": false
+          },
+          {
+            "text": "Aspirin",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Coumadin"
+      },
+      {
+        "text": "What is the half-life of Uranium-235?",
+        "options": [
+          {
+            "text": "703,800,000 years",
+            "isCorrect": true
+          },
+          {
+            "text": "1,260,900,000 years",
+            "isCorrect": false
+          },
+          {
+            "text": "Uranium-235 is a stable isotope",
+            "isCorrect": false
+          },
+          {
+            "text": "4,300,400,000 years",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 703,800,000 years"
+      },
+      {
+        "text": "What is the atomic number of the element Strontium?",
+        "options": [
+          {
+            "text": "73",
+            "isCorrect": false
+          },
+          {
+            "text": "38",
+            "isCorrect": true
+          },
+          {
+            "text": "11",
+            "isCorrect": false
+          },
+          {
+            "text": "47",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 38"
+      }
+    ]
+  },
+  {
+    "title": "Science &amp; Nature Easy Quiz",
+    "description": "Test your science &amp; nature knowledge with easy level questions",
+    "category": "Science &amp; Nature",
+    "difficulty": "Easy",
+    "duration": 10,
+    "image": "/images/default-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "What is the largest animal currently on Earth?",
+        "options": [
+          {
+            "text": "Blue Whale",
+            "isCorrect": true
+          },
+          {
+            "text": "Giraffe",
+            "isCorrect": false
+          },
+          {
+            "text": "Colossal Squid",
+            "isCorrect": false
+          },
+          {
+            "text": "Orca",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Blue Whale"
+      },
+      {
+        "text": "Stars consist mainly of hydrogen and which other gas?",
+        "options": [
+          {
+            "text": "Helium",
+            "isCorrect": true
+          },
+          {
+            "text": "Nitrogen",
+            "isCorrect": false
+          },
+          {
+            "text": "Oxygen",
+            "isCorrect": false
+          },
+          {
+            "text": "Argon",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Helium"
+      },
+      {
+        "text": "Who discovered the Law of Gravity?",
+        "options": [
+          {
+            "text": "Charles Darwin",
+            "isCorrect": false
+          },
+          {
+            "text": "Albert Einstein",
+            "isCorrect": false
+          },
+          {
+            "text": "Sir Isaac Newton",
+            "isCorrect": true
+          },
+          {
+            "text": "Galileo Galilei",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Sir Isaac Newton"
+      },
+      {
+        "text": "How many chromosomes are in your body cells?",
+        "options": [
+          {
+            "text": "24",
+            "isCorrect": false
+          },
+          {
+            "text": "23",
+            "isCorrect": true
+          },
+          {
+            "text": "21",
+            "isCorrect": false
+          },
+          {
+            "text": "22",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 23"
+      },
+      {
+        "text": "The Earth and the Moon roughly have the same mass.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What is the hottest planet in the Solar System?",
+        "options": [
+          {
+            "text": "Venus",
+            "isCorrect": true
+          },
+          {
+            "text": "Mars",
+            "isCorrect": false
+          },
+          {
+            "text": "Jupiter",
+            "isCorrect": false
+          },
+          {
+            "text": "Mercury",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Venus"
+      },
+      {
+        "text": "An Astronomical Unit is the distance between Earth and the Moon.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What is the common name of the chemical compound \"dihydrogen monoxide\"?",
+        "options": [
+          {
+            "text": "Ammonia ",
+            "isCorrect": false
+          },
+          {
+            "text": "Water",
+            "isCorrect": true
+          },
+          {
+            "text": "Methane",
+            "isCorrect": false
+          },
+          {
+            "text": "Laughing Gas",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Water"
+      },
+      {
+        "text": "Which noble gas has the lowest atomic number?",
+        "options": [
+          {
+            "text": "Neon",
+            "isCorrect": false
+          },
+          {
+            "text": "Krypton",
+            "isCorrect": false
+          },
+          {
+            "text": "Argon",
+            "isCorrect": false
+          },
+          {
+            "text": "Helium",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Helium"
+      },
+      {
+        "text": "Salt is 100% composed of Sodium.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What is the largest planet in the Solar System?",
+        "options": [
+          {
+            "text": "Mars",
+            "isCorrect": false
+          },
+          {
+            "text": "Earth",
+            "isCorrect": false
+          },
+          {
+            "text": "Jupiter",
+            "isCorrect": true
+          },
+          {
+            "text": "Saturn",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Jupiter"
+      },
+      {
+        "text": "Human cells typically have how many copies of each gene?",
+        "options": [
+          {
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "text": "2",
+            "isCorrect": true
+          },
+          {
+            "text": "3",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 2"
+      },
+      {
+        "text": "How many bones are in the human body?",
+        "options": [
+          {
+            "text": "209",
+            "isCorrect": false
+          },
+          {
+            "text": "206",
+            "isCorrect": true
+          },
+          {
+            "text": "200",
+            "isCorrect": false
+          },
+          {
+            "text": "203",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 206"
+      },
+      {
+        "text": "What does DNA stand for?",
+        "options": [
+          {
+            "text": "Deoxyribogenetic Atoms",
+            "isCorrect": false
+          },
+          {
+            "text": "Deoxyribonucleic Acid",
+            "isCorrect": true
+          },
+          {
+            "text": "Detoxic Acid",
+            "isCorrect": false
+          },
+          {
+            "text": "Deoxyribogenetic Acid",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Deoxyribonucleic Acid"
+      },
+      {
+        "text": "About what percentage of the Earth's surface is water? ",
+        "options": [
+          {
+            "text": "70%",
+            "isCorrect": true
+          },
+          {
+            "text": "90%",
+            "isCorrect": false
+          },
+          {
+            "text": "50%",
+            "isCorrect": false
+          },
+          {
+            "text": "30%",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 70%"
+      },
+      {
+        "text": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+        "options": [
+          {
+            "text": "The presence or absence of certain organelles",
+            "isCorrect": false
+          },
+          {
+            "text": "The presence or absence of a nucleus",
+            "isCorrect": true
+          },
+          {
+            "text": "The mode of reproduction",
+            "isCorrect": false
+          },
+          {
+            "text": "The overall size",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: The presence or absence of a nucleus"
+      },
+      {
+        "text": "A plant that has a life cycle for more than a year is known as an annual.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      }
+    ]
+  },
+  {
+    "title": "Science &amp; Nature Hard Quiz",
+    "description": "Test your science &amp; nature knowledge with hard level questions",
+    "category": "Science &amp; Nature",
+    "difficulty": "Hard",
+    "duration": 30,
+    "image": "/images/default-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "Frederick Banting and John Macleod won a Nobel Prize for their contributions to the scientific fields of quantum mechanics.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "The word \"science\" stems from the word \"scire\" meaning what?",
+        "options": [
+          {
+            "text": "To know",
+            "isCorrect": true
+          },
+          {
+            "text": "To live",
+            "isCorrect": false
+          },
+          {
+            "text": "To count",
+            "isCorrect": false
+          },
+          {
+            "text": "To measure",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: To know"
+      },
+      {
+        "text": "How many types of quarks are there in the standard model of physics?",
+        "options": [
+          {
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "text": "2",
+            "isCorrect": false
+          },
+          {
+            "text": "6",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 6"
+      },
+      {
+        "text": "Which of the following is NOT a word used to describe an earthquake?",
+        "options": [
+          {
+            "text": "Foreshock",
+            "isCorrect": false
+          },
+          {
+            "text": "Strike-slip",
+            "isCorrect": false
+          },
+          {
+            "text": "Drop-slide",
+            "isCorrect": true
+          },
+          {
+            "text": "Temblor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Drop-slide"
+      },
+      {
+        "text": "What is isobutylphenylpropanoic acid more commonly known as?",
+        "options": [
+          {
+            "text": "Ibuprofen",
+            "isCorrect": true
+          },
+          {
+            "text": "Aspirin",
+            "isCorrect": false
+          },
+          {
+            "text": "Ketamine",
+            "isCorrect": false
+          },
+          {
+            "text": "Morphine",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Ibuprofen"
+      },
+      {
+        "text": "How many objects are equivalent to one mole?",
+        "options": [
+          {
+            "text": "6.002 x 10^23",
+            "isCorrect": false
+          },
+          {
+            "text": "6.022 x 10^22",
+            "isCorrect": false
+          },
+          {
+            "text": "6.022 x 10^23",
+            "isCorrect": true
+          },
+          {
+            "text": "6.002 x 10^22",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 6.022 x 10^23"
+      },
+      {
+        "text": "Which one of these is scientific term for \"Brain Freeze\"?",
+        "options": [
+          {
+            "text": "Hyacinthoides Italica",
+            "isCorrect": false
+          },
+          {
+            "text": "Amaranthus Retroflexus",
+            "isCorrect": false
+          },
+          {
+            "text": "Amblyomma Americanum",
+            "isCorrect": false
+          },
+          {
+            "text": "Sphenopalatine Ganglioneuralgia",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Sphenopalatine Ganglioneuralgia"
+      },
+      {
+        "text": "Which scientific unit is named after an Italian nobleman?",
+        "options": [
+          {
+            "text": "Hertz",
+            "isCorrect": false
+          },
+          {
+            "text": "Ohm",
+            "isCorrect": false
+          },
+          {
+            "text": "Volt",
+            "isCorrect": true
+          },
+          {
+            "text": "Pascal",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Volt"
+      },
+      {
+        "text": "The core of the Sun can reach which temperature?",
+        "options": [
+          {
+            "text": "27° Million F (15° Million C)",
+            "isCorrect": true
+          },
+          {
+            "text": "Absolute Zero (Both F and C)",
+            "isCorrect": false
+          },
+          {
+            "text": "8° Billion F (°4.4 Billion C)",
+            "isCorrect": false
+          },
+          {
+            "text": "938,000° F (521093.3° C)",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 27° Million F (15° Million C)"
+      },
+      {
+        "text": "The 'Islets of Langerhans' is found in which human organ?",
+        "options": [
+          {
+            "text": "Brain",
+            "isCorrect": false
+          },
+          {
+            "text": "Kidney",
+            "isCorrect": false
+          },
+          {
+            "text": "Pancreas",
+            "isCorrect": true
+          },
+          {
+            "text": "Liver",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Pancreas"
+      },
+      {
+        "text": "Which of these animals belongs in class Chondrichthyes?",
+        "options": [
+          {
+            "text": "Octopus",
+            "isCorrect": false
+          },
+          {
+            "text": "Killer whale",
+            "isCorrect": false
+          },
+          {
+            "text": "Catfish",
+            "isCorrect": false
+          },
+          {
+            "text": "Great white shark",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Great white shark"
+      },
+      {
+        "text": "Burning which of these metals will produce a bright white flame?",
+        "options": [
+          {
+            "text": "Lithium",
+            "isCorrect": false
+          },
+          {
+            "text": "Lead",
+            "isCorrect": false
+          },
+          {
+            "text": "Magnesium",
+            "isCorrect": true
+          },
+          {
+            "text": "Copper",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Magnesium"
+      },
+      {
+        "text": "What element on the periodic table has 92 electrons?",
+        "options": [
+          {
+            "text": "Iron",
+            "isCorrect": false
+          },
+          {
+            "text": "Hydrogen",
+            "isCorrect": false
+          },
+          {
+            "text": "Uranium",
+            "isCorrect": true
+          },
+          {
+            "text": "Sulfur",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Uranium"
+      },
+      {
+        "text": "Where is the Gluteus Maximus muscle located?",
+        "options": [
+          {
+            "text": "Head",
+            "isCorrect": false
+          },
+          {
+            "text": "Butt",
+            "isCorrect": true
+          },
+          {
+            "text": "Torso",
+            "isCorrect": false
+          },
+          {
+            "text": "Arm",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Butt"
+      },
+      {
+        "text": "What was the first organic compound to be synthesized from inorganic compounds?",
+        "options": [
+          {
+            "text": "Formaldehyde",
+            "isCorrect": false
+          },
+          {
+            "text": "Ethanol",
+            "isCorrect": false
+          },
+          {
+            "text": "Propane",
+            "isCorrect": false
+          },
+          {
+            "text": "Urea",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Urea"
+      },
+      {
+        "text": "It was once believed that injecting shark cartilage into people would prevent them from contracting cancer.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Folic acid is the synthetic form of which vitamin?",
+        "options": [
+          {
+            "text": "Vitamin D",
+            "isCorrect": false
+          },
+          {
+            "text": "Vitamin A",
+            "isCorrect": false
+          },
+          {
+            "text": "Vitamin C",
+            "isCorrect": false
+          },
+          {
+            "text": "Vitamin B",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Vitamin B"
+      }
+    ]
+  },
+  {
+    "title": "History Medium Quiz",
+    "description": "Test your history knowledge with medium level questions",
+    "category": "History",
+    "difficulty": "Medium",
+    "duration": 20,
+    "image": "/images/history-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+        "options": [
+          {
+            "text": "1973",
+            "isCorrect": false
+          },
+          {
+            "text": "1969",
+            "isCorrect": true
+          },
+          {
+            "text": "1965",
+            "isCorrect": false
+          },
+          {
+            "text": "1966",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1969"
+      },
+      {
+        "text": "One of the deadliest pandemics, the \"Spanish Flu\", killed off what percentage of the human world population at the time?",
+        "options": [
+          {
+            "text": "3 to 6 percent",
+            "isCorrect": true
+          },
+          {
+            "text": "less than 1 percent",
+            "isCorrect": false
+          },
+          {
+            "text": "6 to 10 percent",
+            "isCorrect": false
+          },
+          {
+            "text": "1 to 3 percent",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 3 to 6 percent"
+      },
+      {
+        "text": "What date was the first flight of the P-40 Warhawk?",
+        "options": [
+          {
+            "text": "January 12 1940",
+            "isCorrect": false
+          },
+          {
+            "text": "June 1 1939",
+            "isCorrect": false
+          },
+          {
+            "text": "October 14 1938",
+            "isCorrect": true
+          },
+          {
+            "text": "August 21 1939",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: October 14 1938"
+      },
+      {
+        "text": "When did the United States formally declare war on Japan, entering World War II?",
+        "options": [
+          {
+            "text": "June 6, 1944",
+            "isCorrect": false
+          },
+          {
+            "text": "June 22, 1941",
+            "isCorrect": false
+          },
+          {
+            "text": "September 1, 1939",
+            "isCorrect": false
+          },
+          {
+            "text": "December 8, 1941",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: December 8, 1941"
+      },
+      {
+        "text": "Adolf Hitler was born on which date?",
+        "options": [
+          {
+            "text": "June 12, 1889",
+            "isCorrect": false
+          },
+          {
+            "text": "April 20, 1889",
+            "isCorrect": true
+          },
+          {
+            "text": "April 16, 1889",
+            "isCorrect": false
+          },
+          {
+            "text": "February 6, 1889",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: April 20, 1889"
+      },
+      {
+        "text": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
+        "options": [
+          {
+            "text": "1%",
+            "isCorrect": false
+          },
+          {
+            "text": "3%",
+            "isCorrect": false
+          },
+          {
+            "text": "<1%",
+            "isCorrect": false
+          },
+          {
+            "text": "5%",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 5%"
+      },
+      {
+        "text": "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+        "options": [
+          {
+            "text": "Herbert Hoover",
+            "isCorrect": false
+          },
+          {
+            "text": "Dwight D. Eisenhower",
+            "isCorrect": false
+          },
+          {
+            "text": "Franklin D. Roosevelt",
+            "isCorrect": false
+          },
+          {
+            "text": "Harry S. Truman",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Harry S. Truman"
+      },
+      {
+        "text": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+        "options": [
+          {
+            "text": "Alien",
+            "isCorrect": false
+          },
+          {
+            "text": "Jaws",
+            "isCorrect": false
+          },
+          {
+            "text": "Star Wars",
+            "isCorrect": true
+          },
+          {
+            "text": "Blade Runner",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Star Wars"
+      },
+      {
+        "text": "Theodore Roosevelt Jr. was the only General involved in the initial assault on D-Day.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "When did L. L. Zamenhof first publish \"Unua Libro\", the first publication describing his international language Esperanto?",
+        "options": [
+          {
+            "text": "1887",
+            "isCorrect": true
+          },
+          {
+            "text": "1915",
+            "isCorrect": false
+          },
+          {
+            "text": "1897",
+            "isCorrect": false
+          },
+          {
+            "text": "1905",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1887"
+      },
+      {
+        "text": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
+        "options": [
+          {
+            "text": "Atheist",
+            "isCorrect": false
+          },
+          {
+            "text": "Mormon",
+            "isCorrect": true
+          },
+          {
+            "text": "Jewish",
+            "isCorrect": false
+          },
+          {
+            "text": "Catholic",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Mormon"
+      },
+      {
+        "text": "In what year did Texas secede from Mexico?",
+        "options": [
+          {
+            "text": "1844",
+            "isCorrect": false
+          },
+          {
+            "text": "1845",
+            "isCorrect": false
+          },
+          {
+            "text": "1838",
+            "isCorrect": false
+          },
+          {
+            "text": "1836",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 1836"
+      },
+      {
+        "text": "Which Nation did NOT have a Colony in modern-day North America?",
+        "options": [
+          {
+            "text": "Portugal",
+            "isCorrect": true
+          },
+          {
+            "text": "Spain",
+            "isCorrect": false
+          },
+          {
+            "text": "Sweden",
+            "isCorrect": false
+          },
+          {
+            "text": "Netherlands",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Portugal"
+      },
+      {
+        "text": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+        "options": [
+          {
+            "text": "75 Megatons",
+            "isCorrect": false
+          },
+          {
+            "text": "150 Megatons",
+            "isCorrect": false
+          },
+          {
+            "text": "200 Megatons",
+            "isCorrect": false
+          },
+          {
+            "text": "100 Megatons",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: 100 Megatons"
+      },
+      {
+        "text": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+        "options": [
+          {
+            "text": "Goldsboro, North Carolina",
+            "isCorrect": true
+          },
+          {
+            "text": "Conway, Arkansas",
+            "isCorrect": false
+          },
+          {
+            "text": "Jacksonville, Florida",
+            "isCorrect": false
+          },
+          {
+            "text": "Hicksville, New York",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Goldsboro, North Carolina"
+      },
+      {
+        "text": "The two atomic bombs dropped on Japan by the United States in August 1945 were named 'Little Man' and 'Fat Boy'.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "What was the name of the planned invasion of Japan towards the end of World War II?",
+        "options": [
+          {
+            "text": "Operation Aflame",
+            "isCorrect": false
+          },
+          {
+            "text": "Operation Downfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Operation Boarding Party",
+            "isCorrect": false
+          },
+          {
+            "text": "Operation Ironclad",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Operation Downfall"
+      },
+      {
+        "text": "What year is considered to be the year that the British Empire ended?",
+        "options": [
+          {
+            "text": "1997",
+            "isCorrect": true
+          },
+          {
+            "text": "1971",
+            "isCorrect": false
+          },
+          {
+            "text": "1986",
+            "isCorrect": false
+          },
+          {
+            "text": "1981",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1997"
+      },
+      {
+        "text": "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?",
+        "options": [
+          {
+            "text": "Robert Catesby",
+            "isCorrect": false
+          },
+          {
+            "text": "Francis Tresham",
+            "isCorrect": false
+          },
+          {
+            "text": "Everard Digby",
+            "isCorrect": false
+          },
+          {
+            "text": "Guy Fawkes",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Guy Fawkes"
+      },
+      {
+        "text": "The Hundred Years' War was fought for more than a hundred years.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Franz Joseph I was the last emperor of Austria.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "During what war did the \"Cuban Missile Crisis\" occur?",
+        "options": [
+          {
+            "text": "World War I",
+            "isCorrect": false
+          },
+          {
+            "text": "Revolutionary War",
+            "isCorrect": false
+          },
+          {
+            "text": "World War II",
+            "isCorrect": false
+          },
+          {
+            "text": "Cold War",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Cold War"
+      },
+      {
+        "text": "Which country gifted the Statue of Liberty to the United States of America?",
+        "options": [
+          {
+            "text": "England",
+            "isCorrect": false
+          },
+          {
+            "text": "Germany",
+            "isCorrect": false
+          },
+          {
+            "text": "France",
+            "isCorrect": true
+          },
+          {
+            "text": "Spain",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: France"
+      }
+    ]
+  },
+  {
+    "title": "History Hard Quiz",
+    "description": "Test your history knowledge with hard level questions",
+    "category": "History",
+    "difficulty": "Hard",
+    "duration": 30,
+    "image": "/images/history-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "The USS Missouri (BB-63) last served in the Korean War.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+        "options": [
+          {
+            "text": "Cheating at card games",
+            "isCorrect": false
+          },
+          {
+            "text": "Digging graves",
+            "isCorrect": false
+          },
+          {
+            "text": "Making jams and jellies",
+            "isCorrect": true
+          },
+          {
+            "text": "Teaching parrots to talk",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Making jams and jellies"
+      },
+      {
+        "text": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?",
+        "options": [
+          {
+            "text": "Richard Neville",
+            "isCorrect": true
+          },
+          {
+            "text": "Henry V",
+            "isCorrect": false
+          },
+          {
+            "text": "Thomas Warwick",
+            "isCorrect": false
+          },
+          {
+            "text": "Richard III",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Richard Neville"
+      },
+      {
+        "text": "Japan was part of the Allied Powers during World War I.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Who was the last emperor of Mexico?",
+        "options": [
+          {
+            "text": "Ferdinand Maximilian",
+            "isCorrect": true
+          },
+          {
+            "text": "Agust&iacute;n de Iturbide",
+            "isCorrect": false
+          },
+          {
+            "text": "Napoleon III",
+            "isCorrect": false
+          },
+          {
+            "text": "Andr&eacute;s Manuel L&oacute;pez Obrador",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Ferdinand Maximilian"
+      },
+      {
+        "text": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+        "options": [
+          {
+            "text": "Brazzaville",
+            "isCorrect": true
+          },
+          {
+            "text": "Tunis",
+            "isCorrect": false
+          },
+          {
+            "text": "Algiers",
+            "isCorrect": false
+          },
+          {
+            "text": "Paris",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Brazzaville"
+      },
+      {
+        "text": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+        "options": [
+          {
+            "text": "Werner Heisenberg",
+            "isCorrect": false
+          },
+          {
+            "text": "Niels Bohr",
+            "isCorrect": false
+          },
+          {
+            "text": "Paul Dirac",
+            "isCorrect": true
+          },
+          {
+            "text": "Albert Einstein",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Paul Dirac"
+      },
+      {
+        "text": "When did Canada leave the confederation to become their own nation?",
+        "options": [
+          {
+            "text": "July 1st, 1763",
+            "isCorrect": false
+          },
+          {
+            "text": "July 1st, 1902",
+            "isCorrect": false
+          },
+          {
+            "text": "July 1st, 1867",
+            "isCorrect": true
+          },
+          {
+            "text": "July 1st, 1832",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: July 1st, 1867"
+      },
+      {
+        "text": "What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?",
+        "options": [
+          {
+            "text": "The Great Artiste",
+            "isCorrect": false
+          },
+          {
+            "text": "Enola Gay",
+            "isCorrect": true
+          },
+          {
+            "text": "Full House",
+            "isCorrect": false
+          },
+          {
+            "text": "Necessary Evil",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Enola Gay"
+      },
+      {
+        "text": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+        "options": [
+          {
+            "text": "Aragon",
+            "isCorrect": true
+          },
+          {
+            "text": "Le&oacute;n",
+            "isCorrect": false
+          },
+          {
+            "text": "Navarre",
+            "isCorrect": false
+          },
+          {
+            "text": "Galicia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Aragon"
+      },
+      {
+        "text": "How many sonatas did Ludwig van Beethoven write?",
+        "options": [
+          {
+            "text": "32",
+            "isCorrect": true
+          },
+          {
+            "text": "50",
+            "isCorrect": false
+          },
+          {
+            "text": "31",
+            "isCorrect": false
+          },
+          {
+            "text": "21",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 32"
+      },
+      {
+        "text": "What Southeast Asian country was formerly known as 'Lan Xang'?",
+        "options": [
+          {
+            "text": "Vietnam",
+            "isCorrect": false
+          },
+          {
+            "text": "Thailand",
+            "isCorrect": false
+          },
+          {
+            "text": "Cambodia",
+            "isCorrect": false
+          },
+          {
+            "text": "Laos",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Laos"
+      },
+      {
+        "text": "Joseph Stalin's real name was Ioseb Bessarionis dze Dzugashvili.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+        "options": [
+          {
+            "text": "Abraham Lincoln",
+            "isCorrect": false
+          },
+          {
+            "text": "James Polk",
+            "isCorrect": false
+          },
+          {
+            "text": "Andrew Johnson",
+            "isCorrect": false
+          },
+          {
+            "text": "Franklin Pierce",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Franklin Pierce"
+      },
+      {
+        "text": "The Battle of Trafalgar took place on October 23rd, 1805",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      }
+    ]
+  },
+  {
+    "title": "History Easy Quiz",
+    "description": "Test your history knowledge with easy level questions",
+    "category": "History",
+    "difficulty": "Easy",
+    "duration": 10,
+    "image": "/images/history-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "Vikings were the first Europeans to discover North America.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What was William Frederick Cody better known as?",
+        "options": [
+          {
+            "text": "Wild Bill Hickok",
+            "isCorrect": false
+          },
+          {
+            "text": "Buffalo Bill",
+            "isCorrect": true
+          },
+          {
+            "text": "Pawnee Bill",
+            "isCorrect": false
+          },
+          {
+            "text": "Billy the Kid",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Buffalo Bill"
+      },
+      {
+        "text": "How old was Adolf Hitler when he died?",
+        "options": [
+          {
+            "text": "56",
+            "isCorrect": true
+          },
+          {
+            "text": "65",
+            "isCorrect": false
+          },
+          {
+            "text": "47",
+            "isCorrect": false
+          },
+          {
+            "text": "43",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 56"
+      },
+      {
+        "text": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Which one of these countries was NOT in the Central Powers during WWI?",
+        "options": [
+          {
+            "text": "Germany",
+            "isCorrect": false
+          },
+          {
+            "text": "Turkey",
+            "isCorrect": false
+          },
+          {
+            "text": "Austria-Hungary",
+            "isCorrect": false
+          },
+          {
+            "text": "Spain",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Spain"
+      },
+      {
+        "text": "The \"Trail of Tears\" was a result of which United States President's Indian Removal Policy?",
+        "options": [
+          {
+            "text": "John Quincy Adams",
+            "isCorrect": false
+          },
+          {
+            "text": "Martin Van Buren",
+            "isCorrect": false
+          },
+          {
+            "text": "Harry S. Truman",
+            "isCorrect": false
+          },
+          {
+            "text": "Andrew Jackson",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Andrew Jackson"
+      },
+      {
+        "text": "Which modern country is known as \"The Graveyard of Empires\"?",
+        "options": [
+          {
+            "text": "Russia",
+            "isCorrect": false
+          },
+          {
+            "text": "Iraq",
+            "isCorrect": false
+          },
+          {
+            "text": "Afghanistan",
+            "isCorrect": true
+          },
+          {
+            "text": "China",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Afghanistan"
+      },
+      {
+        "text": "What is the historical name of Sri Lanka?",
+        "options": [
+          {
+            "text": "Badulla",
+            "isCorrect": false
+          },
+          {
+            "text": "Colombo",
+            "isCorrect": false
+          },
+          {
+            "text": "Myanmar",
+            "isCorrect": false
+          },
+          {
+            "text": "Ceylon",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Ceylon"
+      },
+      {
+        "text": "When was Google founded?",
+        "options": [
+          {
+            "text": "Feburary 7th, 2000",
+            "isCorrect": false
+          },
+          {
+            "text": "December 12, 1989",
+            "isCorrect": false
+          },
+          {
+            "text": "September 4, 1998",
+            "isCorrect": true
+          },
+          {
+            "text": "October 9, 1997",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: September 4, 1998"
+      },
+      {
+        "text": "King Henry VIII was the second monarch of which European royal house?",
+        "options": [
+          {
+            "text": "Lancaster",
+            "isCorrect": false
+          },
+          {
+            "text": "York",
+            "isCorrect": false
+          },
+          {
+            "text": "Tudor",
+            "isCorrect": true
+          },
+          {
+            "text": "Stuart",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Tudor"
+      },
+      {
+        "text": "Thomas Crapper was a plumber who invented the flushing toilet.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "Which one of these tanks was designed and operated by the United Kingdom?",
+        "options": [
+          {
+            "text": "Tog II",
+            "isCorrect": true
+          },
+          {
+            "text": "Tiger H1",
+            "isCorrect": false
+          },
+          {
+            "text": "M4 Sherman",
+            "isCorrect": false
+          },
+          {
+            "text": "T-34",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Tog II"
+      }
+    ]
+  },
+  {
+    "title": "Sports Easy Quiz",
+    "description": "Test your sports knowledge with easy level questions",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "duration": 10,
+    "image": "/images/sports-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+        "options": [
+          {
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "text": "2",
+            "isCorrect": false
+          },
+          {
+            "text": "4",
+            "isCorrect": true
+          },
+          {
+            "text": "1",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 4"
+      },
+      {
+        "text": "How many players are there in an association football/soccer team?",
+        "options": [
+          {
+            "text": "11",
+            "isCorrect": true
+          },
+          {
+            "text": "10",
+            "isCorrect": false
+          },
+          {
+            "text": "8",
+            "isCorrect": false
+          },
+          {
+            "text": "9",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 11"
+      },
+      {
+        "text": "The Los Angeles Dodgers were originally from what U.S. city?",
+        "options": [
+          {
+            "text": "Brooklyn",
+            "isCorrect": true
+          },
+          {
+            "text": "Seattle",
+            "isCorrect": false
+          },
+          {
+            "text": "Boston",
+            "isCorrect": false
+          },
+          {
+            "text": "Las Vegas",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Brooklyn"
+      },
+      {
+        "text": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+        "options": [
+          {
+            "text": "Montreal",
+            "isCorrect": false
+          },
+          {
+            "text": "Houston",
+            "isCorrect": false
+          },
+          {
+            "text": "New York",
+            "isCorrect": false
+          },
+          {
+            "text": "Quebec City",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Quebec City"
+      },
+      {
+        "text": "Which two teams played in Super Bowl XLII?",
+        "options": [
+          {
+            "text": "The Philadelphia Eagles & The New England Patriots",
+            "isCorrect": false
+          },
+          {
+            "text": "The New York Giants & The New England Patriots",
+            "isCorrect": true
+          },
+          {
+            "text": "The Seattle Seahawks & The Denver Broncos",
+            "isCorrect": false
+          },
+          {
+            "text": "The Green Bay Packers & The Pittsburgh Steelers",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: The New York Giants & The New England Patriots"
+      },
+      {
+        "text": "In what sport is a \"shuttlecock\" used?",
+        "options": [
+          {
+            "text": "Badminton",
+            "isCorrect": true
+          },
+          {
+            "text": "Cricket",
+            "isCorrect": false
+          },
+          {
+            "text": "Rugby",
+            "isCorrect": false
+          },
+          {
+            "text": "Table Tennis",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Badminton"
+      },
+      {
+        "text": "What year did the New Orleans Saints win the Super Bowl?",
+        "options": [
+          {
+            "text": "2008",
+            "isCorrect": false
+          },
+          {
+            "text": "2010",
+            "isCorrect": true
+          },
+          {
+            "text": "2011",
+            "isCorrect": false
+          },
+          {
+            "text": "2009",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 2010"
+      },
+      {
+        "text": "Peyton Manning retired after winning Super Bowl XLIX.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "In bowling, what is the term used for getting three consecutive strikes?",
+        "options": [
+          {
+            "text": "Turkey",
+            "isCorrect": true
+          },
+          {
+            "text": "Eagle",
+            "isCorrect": false
+          },
+          {
+            "text": "Flamingo",
+            "isCorrect": false
+          },
+          {
+            "text": "Birdie",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Turkey"
+      },
+      {
+        "text": "Which African American is in part responsible for integrating  Major League baseball?",
+        "options": [
+          {
+            "text": "Satchell Paige",
+            "isCorrect": false
+          },
+          {
+            "text": "Jackie Robinson",
+            "isCorrect": true
+          },
+          {
+            "text": "Curt Flood",
+            "isCorrect": false
+          },
+          {
+            "text": "Roy Campanella",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Jackie Robinson"
+      },
+      {
+        "text": "When was the FC Schalke 04 founded?",
+        "options": [
+          {
+            "text": "1999",
+            "isCorrect": false
+          },
+          {
+            "text": "1909",
+            "isCorrect": false
+          },
+          {
+            "text": "1904",
+            "isCorrect": true
+          },
+          {
+            "text": "2008",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 1904"
+      },
+      {
+        "text": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+        "options": [
+          {
+            "text": "Africa",
+            "isCorrect": false
+          },
+          {
+            "text": "Europe",
+            "isCorrect": true
+          },
+          {
+            "text": "South America",
+            "isCorrect": false
+          },
+          {
+            "text": "Asia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Europe"
+      },
+      {
+        "text": "What is the name of the \"tool\" used to hit the white ball in snooker or billiards?",
+        "options": [
+          {
+            "text": "Cue",
+            "isCorrect": true
+          },
+          {
+            "text": "Bat",
+            "isCorrect": false
+          },
+          {
+            "text": "Racquet",
+            "isCorrect": false
+          },
+          {
+            "text": "Mallet",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Cue"
+      },
+      {
+        "text": "Who won the UEFA Champions League in 2017?",
+        "options": [
+          {
+            "text": "Real Madrid C.F.",
+            "isCorrect": true
+          },
+          {
+            "text": "Atletico Madrid",
+            "isCorrect": false
+          },
+          {
+            "text": "AS Monaco FC",
+            "isCorrect": false
+          },
+          {
+            "text": "Juventus F.C.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Real Madrid C.F."
+      },
+      {
+        "text": "Which team won 2014 FIFA World Cup in Brazil?",
+        "options": [
+          {
+            "text": "Brazil",
+            "isCorrect": false
+          },
+          {
+            "text": "Netherlands",
+            "isCorrect": false
+          },
+          {
+            "text": "Argentina",
+            "isCorrect": false
+          },
+          {
+            "text": "Germany",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Germany"
+      },
+      {
+        "text": "Who won the 2015 Formula 1 World Championship?",
+        "options": [
+          {
+            "text": "Nico Rosberg",
+            "isCorrect": false
+          },
+          {
+            "text": "Lewis Hamilton",
+            "isCorrect": true
+          },
+          {
+            "text": "Jenson Button",
+            "isCorrect": false
+          },
+          {
+            "text": "Sebastian Vettel",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Lewis Hamilton"
+      },
+      {
+        "text": "What team won the 2016 MLS Cup?",
+        "options": [
+          {
+            "text": "Montreal Impact",
+            "isCorrect": false
+          },
+          {
+            "text": "Colorado Rapids",
+            "isCorrect": false
+          },
+          {
+            "text": "Toronto FC",
+            "isCorrect": false
+          },
+          {
+            "text": "Seattle Sounders",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Seattle Sounders"
+      },
+      {
+        "text": "Who won the UEFA Champions League in 2016?",
+        "options": [
+          {
+            "text": "Atletico Madrid",
+            "isCorrect": false
+          },
+          {
+            "text": "FC Bayern Munich",
+            "isCorrect": false
+          },
+          {
+            "text": "Manchester City F.C.",
+            "isCorrect": false
+          },
+          {
+            "text": "Real Madrid C.F.",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Real Madrid C.F."
+      },
+      {
+        "text": "\"Stadium of Light\" is the home stadium for which soccer team?",
+        "options": [
+          {
+            "text": "Sunderland FC",
+            "isCorrect": true
+          },
+          {
+            "text": "Barcelona FC",
+            "isCorrect": false
+          },
+          {
+            "text": "Manchester United",
+            "isCorrect": false
+          },
+          {
+            "text": "Paris Saints-Germain",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Sunderland FC"
+      },
+      {
+        "text": "Which country hosted the 2018 FIFA World Cup?",
+        "options": [
+          {
+            "text": "Russia",
+            "isCorrect": true
+          },
+          {
+            "text": "Saudi Arabia",
+            "isCorrect": false
+          },
+          {
+            "text": "United States",
+            "isCorrect": false
+          },
+          {
+            "text": "Germany",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Russia"
+      }
+    ]
+  },
+  {
+    "title": "Sports Medium Quiz",
+    "description": "Test your sports knowledge with medium level questions",
+    "category": "Sports",
+    "difficulty": "Medium",
+    "duration": 20,
+    "image": "/images/sports-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "Who was the topscorer for England national football team?",
+        "options": [
+          {
+            "text": "Steven Gerrard",
+            "isCorrect": false
+          },
+          {
+            "text": "Michael Owen",
+            "isCorrect": false
+          },
+          {
+            "text": "Wayne Rooney",
+            "isCorrect": true
+          },
+          {
+            "text": "David Beckham",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Wayne Rooney"
+      },
+      {
+        "text": "Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?",
+        "options": [
+          {
+            "text": "Italy",
+            "isCorrect": false
+          },
+          {
+            "text": "United States of America",
+            "isCorrect": false
+          },
+          {
+            "text": "Tunisia",
+            "isCorrect": true
+          },
+          {
+            "text": "Netherlands",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Tunisia"
+      },
+      {
+        "text": "Who was the first footballer to score 200 goals in the English Premier League?",
+        "options": [
+          {
+            "text": "Robbie Fowler",
+            "isCorrect": false
+          },
+          {
+            "text": "Thierry Henry",
+            "isCorrect": false
+          },
+          {
+            "text": "Wayne Rooney",
+            "isCorrect": false
+          },
+          {
+            "text": "Alan Shearer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Alan Shearer"
+      },
+      {
+        "text": "Formula E is an auto racing series that uses hybrid electric race cars.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "How many scoring zones are there on a conventional dart board?",
+        "options": [
+          {
+            "text": "82",
+            "isCorrect": true
+          },
+          {
+            "text": "42",
+            "isCorrect": false
+          },
+          {
+            "text": "102",
+            "isCorrect": false
+          },
+          {
+            "text": "62",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 82"
+      },
+      {
+        "text": "A stimpmeter measures the speed of a ball over what surface?",
+        "options": [
+          {
+            "text": " Football Pitch",
+            "isCorrect": false
+          },
+          {
+            "text": "Golf Putting Green",
+            "isCorrect": true
+          },
+          {
+            "text": "Cricket Outfield",
+            "isCorrect": false
+          },
+          {
+            "text": "Pinball Table",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Golf Putting Green"
+      },
+      {
+        "text": "Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "Which of the following player scored a hat-trick during their Manchester United debut?",
+        "options": [
+          {
+            "text": "Cristiano Ronaldo",
+            "isCorrect": false
+          },
+          {
+            "text": "David Beckham",
+            "isCorrect": false
+          },
+          {
+            "text": "Robin Van Persie",
+            "isCorrect": false
+          },
+          {
+            "text": "Wayne Rooney",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Wayne Rooney"
+      },
+      {
+        "text": "ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.",
+        "options": [
+          {
+            "text": "False",
+            "isCorrect": false
+          },
+          {
+            "text": "True",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: True"
+      },
+      {
+        "text": "What is the nickname of Northampton town's rugby union club?",
+        "options": [
+          {
+            "text": "Saints",
+            "isCorrect": true
+          },
+          {
+            "text": "Wasps",
+            "isCorrect": false
+          },
+          {
+            "text": "Saracens",
+            "isCorrect": false
+          },
+          {
+            "text": "Harlequins",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Saints"
+      },
+      {
+        "text": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+        "options": [
+          {
+            "text": "13",
+            "isCorrect": true
+          },
+          {
+            "text": "20",
+            "isCorrect": false
+          },
+          {
+            "text": "11",
+            "isCorrect": false
+          },
+          {
+            "text": "22",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: 13"
+      },
+      {
+        "text": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+        "options": [
+          {
+            "text": "Toronto Maple Leafs",
+            "isCorrect": false
+          },
+          {
+            "text": "Philadelphia Flyers",
+            "isCorrect": true
+          },
+          {
+            "text": "New York Rangers",
+            "isCorrect": false
+          },
+          {
+            "text": "Boston Bruins",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Philadelphia Flyers"
+      },
+      {
+        "text": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+        "options": [
+          {
+            "text": "Daniil Kvyat",
+            "isCorrect": false
+          },
+          {
+            "text": "Carlos Sainz Jr.",
+            "isCorrect": true
+          },
+          {
+            "text": "Rio Haryanto",
+            "isCorrect": false
+          },
+          {
+            "text": "Jolyon Palmer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Carlos Sainz Jr."
+      },
+      {
+        "text": "What is the highest belt you can get in Taekwondo?",
+        "options": [
+          {
+            "text": "Black",
+            "isCorrect": true
+          },
+          {
+            "text": "Green",
+            "isCorrect": false
+          },
+          {
+            "text": "Red",
+            "isCorrect": false
+          },
+          {
+            "text": "White",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Black"
+      },
+      {
+        "text": "Tennis was once known as Racquetball.",
+        "options": [
+          {
+            "text": "True",
+            "isCorrect": false
+          },
+          {
+            "text": "False",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: False"
+      },
+      {
+        "text": "Which team was the 2014-2015 NBA Champions?",
+        "options": [
+          {
+            "text": "Golden State Warriors",
+            "isCorrect": true
+          },
+          {
+            "text": "Atlanta Hawks",
+            "isCorrect": false
+          },
+          {
+            "text": "Cleveland Cavaliers",
+            "isCorrect": false
+          },
+          {
+            "text": "Houston Rockets",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Golden State Warriors"
+      },
+      {
+        "text": "Who won the 2018 Monaco Grand Prix?",
+        "options": [
+          {
+            "text": "Lewis Hamilton",
+            "isCorrect": false
+          },
+          {
+            "text": "Kimi Raikkonen",
+            "isCorrect": false
+          },
+          {
+            "text": "Daniel Ricciardo",
+            "isCorrect": true
+          },
+          {
+            "text": "Sebastian Vettel",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Daniel Ricciardo"
+      },
+      {
+        "text": "Why was The Green Monster at Fenway Park was originally built?",
+        "options": [
+          {
+            "text": "To prevent viewing games from outside the park.",
+            "isCorrect": true
+          },
+          {
+            "text": "To make getting home runs harder.",
+            "isCorrect": false
+          },
+          {
+            "text": "To display advertisements.",
+            "isCorrect": false
+          },
+          {
+            "text": "To provide extra seating.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: To prevent viewing games from outside the park."
+      },
+      {
+        "text": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+        "options": [
+          {
+            "text": "Jules Bianchi",
+            "isCorrect": true
+          },
+          {
+            "text": "Ayrton Senna",
+            "isCorrect": false
+          },
+          {
+            "text": "Ronald Ratzenberger",
+            "isCorrect": false
+          },
+          {
+            "text": "Gilles Villeneuve",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Jules Bianchi"
+      },
+      {
+        "text": "The song \"Three Lions\" by the Lightning Seeds was made for which major football event in 1996?",
+        "options": [
+          {
+            "text": "European Championships",
+            "isCorrect": true
+          },
+          {
+            "text": "Confederations Cup",
+            "isCorrect": false
+          },
+          {
+            "text": "World Cup",
+            "isCorrect": false
+          },
+          {
+            "text": "Champions League",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: European Championships"
+      },
+      {
+        "text": "In what sport does Fanny Chmelar compete for Germany?",
+        "options": [
+          {
+            "text": "Gymnastics",
+            "isCorrect": false
+          },
+          {
+            "text": "Skiing",
+            "isCorrect": true
+          },
+          {
+            "text": "Showjumping",
+            "isCorrect": false
+          },
+          {
+            "text": "Swimming",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Skiing"
+      },
+      {
+        "text": "What is the oldest team in the NFL?",
+        "options": [
+          {
+            "text": "New York Giants",
+            "isCorrect": false
+          },
+          {
+            "text": "Green Bay Packers",
+            "isCorrect": false
+          },
+          {
+            "text": "Chicago Bears",
+            "isCorrect": false
+          },
+          {
+            "text": "Arizona Cardinals",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Arizona Cardinals"
+      },
+      {
+        "text": "In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?",
+        "options": [
+          {
+            "text": "Mercedes-AMG Petronas",
+            "isCorrect": true
+          },
+          {
+            "text": "McLaren Honda",
+            "isCorrect": false
+          },
+          {
+            "text": "Red Bull Racing Renault",
+            "isCorrect": false
+          },
+          {
+            "text": "Scuderia Ferrari",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Mercedes-AMG Petronas"
+      },
+      {
+        "text": "What country hosted the 2014 Winter Olympics?",
+        "options": [
+          {
+            "text": "Germany",
+            "isCorrect": false
+          },
+          {
+            "text": "United States",
+            "isCorrect": false
+          },
+          {
+            "text": "Russia",
+            "isCorrect": true
+          },
+          {
+            "text": "Canada",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Russia"
+      }
+    ]
+  },
+  {
+    "title": "Sports Hard Quiz",
+    "description": "Test your sports knowledge with hard level questions",
+    "category": "Sports",
+    "difficulty": "Hard",
+    "duration": 30,
+    "image": "/images/sports-quiz.jpg",
+    "isPublic": true,
+    "questions": [
+      {
+        "text": "Who is Manchester United's leading appearance maker?",
+        "options": [
+          {
+            "text": "David Beckham",
+            "isCorrect": false
+          },
+          {
+            "text": "Eric Cantona",
+            "isCorrect": false
+          },
+          {
+            "text": "Wayne Rooney",
+            "isCorrect": false
+          },
+          {
+            "text": "Ryan Giggs",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Ryan Giggs"
+      },
+      {
+        "text": "Who won the 1998 Daytona 500?",
+        "options": [
+          {
+            "text": "John Anderson",
+            "isCorrect": false
+          },
+          {
+            "text": "Michael Walltrip",
+            "isCorrect": false
+          },
+          {
+            "text": "Dale Earnhardt",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeff Gordon",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Dale Earnhardt"
+      },
+      {
+        "text": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+        "options": [
+          {
+            "text": "David Beckham",
+            "isCorrect": false
+          },
+          {
+            "text": "Ole Gunnar Solskj&aelig;r",
+            "isCorrect": true
+          },
+          {
+            "text": "Dwight Yorke",
+            "isCorrect": false
+          },
+          {
+            "text": "Andy Cole",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Ole Gunnar Solskj&aelig;r"
+      },
+      {
+        "text": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+        "options": [
+          {
+            "text": "Cristiano Armando Diego Ronaldo",
+            "isCorrect": false
+          },
+          {
+            "text": "Cristiano Luis Armando Ronaldo",
+            "isCorrect": false
+          },
+          {
+            "text": "Cristiano Ronaldo los Santos Diego",
+            "isCorrect": false
+          },
+          {
+            "text": "Cristiano Ronaldo dos Santos Aveiro",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Cristiano Ronaldo dos Santos Aveiro"
+      },
+      {
+        "text": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+        "options": [
+          {
+            "text": "Kaliningrad",
+            "isCorrect": false
+          },
+          {
+            "text": "Yekaterinburg",
+            "isCorrect": false
+          },
+          {
+            "text": "Rostov-on-Don",
+            "isCorrect": false
+          },
+          {
+            "text": "Vladivostok",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "The correct answer is: Vladivostok"
+      },
+      {
+        "text": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+        "options": [
+          {
+            "text": "Portugal",
+            "isCorrect": true
+          },
+          {
+            "text": "Brazil",
+            "isCorrect": false
+          },
+          {
+            "text": "Soviet Union",
+            "isCorrect": false
+          },
+          {
+            "text": "West Germany",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The correct answer is: Portugal"
+      }
+    ]
+  }
+]
