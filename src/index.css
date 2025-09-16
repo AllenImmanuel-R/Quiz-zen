@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Quiz Master Design System - Modern Blue/Purple Theme */
+
+@layer base {
+  :root {
+    /* Brand Colors - Blue to Purple Gradient Theme */
+    --background: 240 10% 98%;
+    --foreground: 230 15% 15%;
+    
+    /* Primary Brand - Deep Blue */
+    --primary: 220 91% 55%;
+    --primary-light: 220 91% 65%;
+    --primary-dark: 220 91% 45%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary Brand - Purple */
+    --secondary: 270 75% 60%;
+    --secondary-light: 270 75% 70%;
+    --secondary-dark: 270 75% 50%;
+    --secondary-foreground: 0 0% 100%;
+    
+    /* Accent - Vibrant Purple */
+    --accent: 280 90% 65%;
+    --accent-light: 280 90% 75%;
+    --accent-foreground: 0 0% 100%;
+    
+    /* Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 230 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 15% 15%;
+    
+    /* Muted/Subtle */
+    --muted: 220 13% 96%;
+    --muted-foreground: 230 10% 55%;
+    
+    /* Success/Error */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Border & Input */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 91% 55%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 91% 55%), hsl(270 75% 60%));
+    --gradient-primary-light: linear-gradient(135deg, hsl(220 91% 65%), hsl(270 75% 70%));
+    --gradient-secondary: linear-gradient(45deg, hsl(280 90% 65%), hsl(220 91% 55%));
+    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 98%), hsl(220 13% 96%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 13% 98%));
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(220 91% 55% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 91% 55% / 0.1), 0 2px 4px -1px hsl(220 91% 55% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(220 91% 55% / 0.1), 0 4px 6px -2px hsl(220 91% 55% / 0.05);
+    --shadow-xl: 0 20px 25px -5px hsl(220 91% 55% / 0.15), 0 10px 10px -5px hsl(220 91% 55% / 0.04);
+    --shadow-glow: 0 0 20px hsl(220 91% 55% / 0.3);
+    --shadow-purple-glow: 0 0 20px hsl(270 75% 60% / 0.3);
+    
+    /* Animation Timing */
+    --transition-fast: 150ms ease-out;
+    --transition-normal: 250ms ease-out;
+    --transition-slow: 350ms ease-out;
+    
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-subtle);
+  }
+}
+
+@layer components {
+  /* Button Variants */
+  .btn-hero {
+    @apply bg-primary hover:bg-primary/90 text-primary-foreground;
+    background: var(--gradient-primary);
+    box-shadow: var(--shadow-lg);
+    transition: all var(--transition-normal);
+  }
+  
+  .btn-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+  }
+  
+  .btn-secondary-quiz {
+    @apply bg-secondary hover:bg-secondary/90 text-secondary-foreground;
+    background: var(--gradient-secondary);
+    transition: all var(--transition-normal);
+  }
+  
+  .btn-ghost-quiz {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground;
+    transition: all var(--transition-normal);
+  }
+  
+  /* Card Variants */
+  .card-quiz {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+  }
+  
+  .card-quiz:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+  }
+  
+  .card-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .card-purple-glow {
+    box-shadow: var(--shadow-purple-glow);
+  }
+  
+  /* Gradient Text */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Progress Bar */
+  .progress-quiz {
+    background: var(--gradient-primary);
+    animation: pulse 2s infinite;
+  }
+  
+  /* Quiz Option Animations */
+  .quiz-option {
+    transition: all var(--transition-fast);
+  }
+  
+  .quiz-option:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .quiz-option.selected {
+    background: var(--gradient-primary-light);
+    transform: scale(1.02);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .quiz-option.correct {
+    background: hsl(var(--success));
+    color: hsl(var(--success-foreground));
+  }
+  
+  .quiz-option.incorrect {
+    background: hsl(var(--destructive));
+    color: hsl(var(--destructive-foreground));
+  }
+}
+
+@layer utilities {
+  /* Animation Classes */
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.2s ease-out;
+  }
+  
+  .animate-bounce-in {
+    animation: bounceIn 0.4s ease-out;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
