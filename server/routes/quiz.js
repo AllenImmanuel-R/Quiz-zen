@@ -109,6 +109,13 @@ router.post('/', auth, async (req, res) => {
   try {
     const { title, description, category, difficulty, questions, duration, image, isPublic } = req.body;
     
+    // Check if database is available
+    if (!useDatabase()) {
+      return res.status(503).json({ 
+        message: 'Database not available. Quiz creation requires database connection.' 
+      });
+    }
+    
     const newQuiz = new Quiz({
       title,
       description,
@@ -124,7 +131,7 @@ router.post('/', auth, async (req, res) => {
     const quiz = await newQuiz.save();
     res.status(201).json(quiz);
   } catch (err) {
-    console.error(err);
+    console.error('Error creating quiz:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });

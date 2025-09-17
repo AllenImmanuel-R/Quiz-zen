@@ -7,6 +7,8 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import { Navbar } from "@/components/layout/Navbar";
 import { Landing } from "./pages/Landing";
 import { Dashboard } from "./pages/Dashboard";
+import { QuizCreation } from "./pages/QuizCreation";
+import { ManualQuizCreation } from "./pages/ManualQuizCreation";
 import { Quiz } from "./pages/Quiz";
 import { QuizResults } from "./pages/QuizResults";
 import { Login } from "./pages/Auth/Login";
@@ -29,6 +31,8 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/quiz/create" element={<QuizCreation />} />
+              <Route path="/quiz/manual" element={<ManualQuizCreation />} />
               <Route path="/quiz/:id" element={<Quiz />} />
               <Route path="/quiz/:id/results" element={<QuizResults />} />
               <Route path="/login" element={<Login />} />

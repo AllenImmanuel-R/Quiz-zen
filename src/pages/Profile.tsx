@@ -133,6 +133,11 @@ export const Profile = () => {
     const categoryMap = new Map();
     
     profile.quizHistory.forEach(quiz => {
+      // Check if quiz and quiz.quiz exist before accessing category
+      if (!quiz || !quiz.quiz || !quiz.quiz.category) {
+        return; // Skip this entry if quiz data is missing
+      }
+      
       const category = quiz.quiz.category;
       if (!categoryMap.has(category)) {
         categoryMap.set(category, { scores: [], count: 0 });
@@ -175,7 +180,8 @@ export const Profile = () => {
           case 'category_expert':
             const categoryStats = calculateCategoryStats();
             const hasExpertCategory = categoryStats.some(cat => cat.score >= 90);
-            progress = hasExpertCategory ? 100 : Math.max(...categoryStats.map(cat => cat.score), 0);
+            const maxScore = categoryStats.length > 0 ? Math.max(...categoryStats.map(cat => cat.score)) : 0;
+            progress = hasExpertCategory ? 100 : maxScore;
             break;
         }
       }
@@ -432,6 +438,7 @@ export const Profile = () => {
                     <div className="space-y-4">
                       {profile?.quizHistory && profile.quizHistory.length > 0 ? (
                         profile.quizHistory
+                          .filter(quiz => quiz && quiz.quiz && quiz.quiz.title) // Filter out invalid entries
                           .sort((a, b) => new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime())
                           .map((quiz, index) => (
                           <div 

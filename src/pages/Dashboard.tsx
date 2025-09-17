@@ -115,7 +115,12 @@ export const Dashboard = () => {
               </p>
             </div>
             
-            <Button variant="hero" size="lg" className="flex items-center gap-2">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="flex items-center gap-2"
+              onClick={() => navigate('/quiz/create')}
+            >
               <Plus className="w-5 h-5" />
               Create Quiz
             </Button>

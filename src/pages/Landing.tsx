@@ -159,7 +159,7 @@ export const Landing = () => {
               if (isAnalytics) {
                 navigationPath = isAuthenticated ? "/profile?tab=analytics" : "/login";
               } else if (isCreateQuiz) {
-                navigationPath = isAuthenticated ? "/dashboard" : "/login";
+                navigationPath = isAuthenticated ? "/quiz/create" : "/login";
               } else if (isPlayLearn) {
                 navigationPath = "/dashboard";
               } else if (isCompete) {
